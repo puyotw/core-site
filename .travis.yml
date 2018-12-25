@@ -1,0 +1,21 @@
+language: ruby
+env:
+    # directory of Jekyll build artifacts
+    - OUTPUT_DIR=_site
+
+cache: bundler
+branches:
+    only:
+        - master
+
+before_script:
+    - git clone "https://${GITHUB_TOKEN}@github.com/puyotw/puyotw.github.io.git" $OUTPUT_DIR
+
+script:
+    - JEKYLL_ENV=production bundle exec jekyll build --destination $OUTPUT_DIR
+
+after_success:
+    - cd $OUTPUT_DIR
+    - git add .
+    - git commit -m "Travis build ${TRAVIS_BUILD_NUMBER} against commit ${TRAVIS_COMMIT}."
+    - git push origin master
