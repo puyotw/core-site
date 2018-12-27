@@ -8,14 +8,24 @@ branches:
     only:
         - master
 
-before_script:
-    - git clone "https://${GITHUB_TOKEN}@github.com/puyotw/puyotw.github.io.git" $OUTPUT_DIR
-
 script:
     - JEKYLL_ENV=production bundle exec jekyll build --destination $OUTPUT_DIR
 
+# both of the following scripts are deployment scripts,
+# but we don't deploy if the build is for a pull request.
+
+before_script:
+    - |
+      if [ "$TRAVIS_PULL_REQUEST" = "false" ]; then
+        git clone "https://${GITHUB_TOKEN}@github.com/puyotw/puyotw.github.io.git" $OUTPUT_DIR
+      fi
+
 after_success:
-    - cd $OUTPUT_DIR
-    - git add .
-    - git commit -m "Travis build ${TRAVIS_BUILD_NUMBER} against commit ${TRAVIS_COMMIT}."
-    - git push origin master
+    - |
+      if [ "$TRAVIS_PULL_REQUEST" = "false" ]; then
+        cd $OUTPUT_DIR
+        git add .
+        git commit -m "Travis build ${TRAVIS_BUILD_NUMBER} against commit ${TRAVIS_COMMIT}."
+        git push origin master
+      fi
+      
