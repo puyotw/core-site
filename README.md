@@ -16,7 +16,7 @@ GitHub則是提供免費存放開源Git repository的服務。它除了存放Git
 
 ## 甚麼是Markdown？
 
-一般網頁開發者必須學會HTML，而且各種文字效果（**粗體**、_斜體_等）更可能需要CSS才可實現。Markdown是一種易懂易寫的語法，讓你能輕鬆加上文字效果。所有本站的頁面均須使用Markdown撰寫。本站支持的Markdown一覽表可以前往[Markdown Style Guide][md-guide]及其[源碼][md-guide-source]查詢。
+一般網頁開發者必須學會HTML，而且各種文字效果（**粗體**、*斜體*等）更可能需要CSS才可實現。Markdown是一種易懂易寫的語法，讓你能輕鬆加上文字效果。所有本站的頁面均須使用Markdown撰寫。本站支持的Markdown一覽表可以前往[Markdown Style Guide][md-guide]及其[源碼][md-guide-source]查詢。
 
 [md-guide]: https://www.jekyllnow.com/Markdown-Style-Guide/
 [md-guide-source]: https://raw.githubusercontent.com/barryclark/www.jekyllnow.com/gh-pages/_posts/2014-6-19-Markdown-Style-Guide.md
@@ -32,7 +32,7 @@ GitHub則是提供免費存放開源Git repository的服務。它除了存放Git
 3. 進入`_wiki`資料夾，裡面裝有所有wiki的頁面。
    * 要新增頁面，先點選右上的「Create new file」。頁面的路徑將是網址的路徑。
    * 要修改頁面，先找出要修改的頁面md檔，然後在右邊點選鉛筆圖示開始編輯。
-4. 在中間編輯區域可隨意更改頁面內容。上方路徑下可以預覽頁面效果，但注意這GitHub上的Markdown跟本站使用的Markdown不同，所以GitHub上的預覽會跟最終結果有差異，不能完全作準。
+4. 在中間編輯區域可隨意更改頁面內容。可以點擊上方路徑下的「Preview changes」預覽頁面效果，但注意GitHub上的Markdown跟本站使用的Markdown不同，所以GitHub上的預覽會跟最終結果有差異，不能完全作準。
 5. 修改完畢後，到下方「Commit changes」，輸入一行commit標題，並在下方的文字區塊簡介是次更改的大綱。大概風格可參考repo裡[其他commit][core-site-commits]。最後選擇「Commit directly to the `master` branch」，再點擊「Commit changes」。
 6. 點擊上方的「Code」分頁，然後點擊「New pull request」按鈕。點擊中間的「Create pull request」後，酌情輸入Pull Request的標題和內容（如電郵的標題和內容）。在右邊「Reviewers」一項下，選擇「puyotw/content-quality-assurance」和「puyotw/core-dev」。最後點擊「Create pull request」，即完成提交Pull Request。
 7. 在Pull Request頁面上，團隊會不時給予迴響，或要求更改。屆時可以回到〈你的GitHub用戶名〉/core-site，重覆步驟3至5。Commit過後，Pull Request會自動更新。若團隊對內容滿意，便會代為合併到主站。
