@@ -1,0 +1,15 @@
+---
+layout: default
+---
+<article>
+    <h1>標籤: {{ page.tags }}</h1>
+    {%- assign sortedPages = site.wiki | sort: 'url' -%}
+    {%- for sortedPage in sortedPages -%}
+        {%- for PageTags in sortedPage.tags -%}
+            {%- if PageTags == page.tags -%}
+                <a href="{{sortedPage.url}}"><div>{{sortedPage.title}}</div></a>
+            {%- endif -%}
+        {%- endfor -%}
+    {%- endfor -%}
+    <div></div>
+</article>
