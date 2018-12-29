@@ -25,6 +25,9 @@ exclude:
   - vendor/cache/
   - vendor/gems/
   - vendor/ruby/
+keep_files:
+  - .git
+  - CNAME
 
 # Theme settings
 github_username: puyotw
