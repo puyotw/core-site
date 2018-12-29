@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/puyotw/core-site.svg?branch=master)](https://travis-ci.org/puyotw/core-site)
+
 # 魔法氣泡中文百科
 
 歡迎蒞臨魔法氣泡中文百科的repository！這裡有生成主站的源碼。任何對於主站的修改，都要通過修改本repo源碼實現的。本README文件將闡述修改源碼及測試的方法，請根據你的身分跳至適用的部分。
