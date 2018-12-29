@@ -5,7 +5,6 @@ layout: null
   {% for post in site.wiki %}
     {
       "title"    : "{{ post.title | escape }}",
-      "category" : "{{ post.categories }}",
       "tags"     : ["{{ post.tags | join: '","' }}"],
       "url"      : "{{ site.baseurl }}{{ post.url }}",
     } {% unless forloop.last %},{% endunless %}
