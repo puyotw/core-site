@@ -13,12 +13,12 @@ class Twitch < Liquid::Tag
       end
 
     else
-      raise "No Twitch ID provided in the \"twitch\" tag"
+      raise "No Twitch ID provided in the 'twitch' tag"
     end
   end
 
   def render(context)
-    "<div class=\"video-container\"><iframe width=\"560\" height=\"400\" frameborder=\"0\" webkitallowfullscreen mozallowfullscreen allowfullscreen src=\"#{@url}\"></iframe></div>"
+    "<div class='video-container'><iframe width='560' height='400' frameborder='0' webkitallowfullscreen mozallowfullscreen allowfullscreen src='#{@url}'></iframe></div>"
   end
 
   Liquid::Template.register_tag "twitch", self
