@@ -34,7 +34,6 @@ github_username: puyotw
 
 # Build settings
 markdown: kramdown
-plugins_dir: ./_scripts
 plugins:
   - jekyll-feed
   - jekyll-mentions
