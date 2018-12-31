@@ -3,10 +3,10 @@ require 'json'
 module Wiki
   class SearchData < Jekyll::StaticFile
     Filename = "search.json"
-    OutputDirectory = "wiki"  # output directory of search.json relative to site output
+    OutputDirectory = ""  # output directory of search.json relative to collection directory
 
     def initialize(site)
-      super(site, site.source, OutputDirectory, Filename)
+      super(site, site.source, "", Filename, site.collections["wiki"])
     end
 
     # describes content to output to search.json
@@ -22,8 +22,9 @@ module Wiki
         }
       end
 
-      # converts search_data to json, and writes it to /wiki/search.json
-      File.write(destination(site_output_dir), search_data.to_json)
+      output_file_path = destination(site_output_dir)
+      FileUtils.mkdir_p(File.dirname(output_file_path)) # creates necessary directories for the output file
+      File.write(output_file_path, search_data.to_json) # converts search_data to json, and write to output file
 
       # return value to indicate whether search.json has changed since last output,
       # but since our search.json is somewhat dynamicly generated, 
