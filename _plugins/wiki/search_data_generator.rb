@@ -6,7 +6,7 @@ module Wiki
     OutputDirectory = ""  # output directory of search.json relative to collection directory
 
     def initialize(site)
-      super(site, site.source, "", Filename, site.collections["wiki"])
+      super(site, site.source, OutputDirectory, Filename, site.collections["wiki"])
     end
 
     # describes content to output to search.json
