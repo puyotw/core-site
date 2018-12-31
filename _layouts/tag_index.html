@@ -2,12 +2,12 @@
 layout: default
 ---
 <article>
-    <h1>標籤: {{ page.tags }}</h1>
-    {%- assign sortedPages = site.wiki | sort: 'url' -%}
-    {%- for sortedPage in sortedPages -%}
-        {%- for PageTags in sortedPage.tags -%}
-            {%- if PageTags == page.tags -%}
-                <a href="{{sortedPage.url}}"><div>{{sortedPage.title}}</div></a>
+    <h1>{{ page.title }}</h1>
+    {%- assign sorted_pages = site.wiki | sort: 'url' -%}
+    {%- for sorted_page in sorted_pages -%}
+        {%- for tag in sorted_page.tags -%}
+            {%- if tag.name == page.tag -%}
+                <div><a href="{{ sorted_page.url }}">{{ sorted_page.title }}</a></div>
             {%- endif -%}
         {%- endfor -%}
     {%- endfor -%}
