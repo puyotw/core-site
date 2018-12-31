@@ -11,8 +11,8 @@ layout: default
         {{ page.date | date: date_format }}
       </time>
       {%- if page.tags -%}
-        {%- for PageTags in page.tags -%}
-          <a href="/tags/{{PageTags}}">{{PageTags}}</a>
+        {%- for tag in page.tags -%}
+          <a href="{{ tag.url }}">{{ tag.name }}</a>
         {%- endfor -%}
       {%- endif -%}    
       {%- if page.author -%}
