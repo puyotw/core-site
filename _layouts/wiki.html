@@ -1,0 +1,18 @@
+---
+layout: default
+---
+{%- include wiki-sidebar.html -%}
+<article class="color-theme-1 wiki__post container js-Pjax">
+  <div class="markdown-section">
+    {{ content }}
+  </div>
+</article>
+<script src="https://cdn.jsdelivr.net/npm/pjax/pjax.min.js"></script>
+<script>
+var pjax = new Pjax({
+  selectors: ["title", ".js-Pjax"],
+  switches: {
+    ".js-Pjax": Pjax.switches.outerHTML
+  }
+});
+</script>

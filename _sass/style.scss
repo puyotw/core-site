@@ -1,0 +1,91 @@
+@charset "utf-8";
+/** import bulma sass component**/
+@import "./bulma-0.7.2/sass/utilities/_all.sass";
+@import "./bulma-0.7.2/sass/base/_all.sass";
+@import "./bulma-0.7.2/sass/elements/box.sass";
+@import "./bulma-0.7.2/sass/elements/container.sass";
+@import "./bulma-0.7.2/sass/elements/icon.sass";
+@import "./bulma-0.7.2/sass/elements/tag.sass";
+@import "./bulma-0.7.2/sass/components/menu.sass";
+@import "./bulma-0.7.2/sass/components/navbar.sass";
+@import "./bulma-0.7.2/sass/layout/footer.sass";
+/** import git-book markdown style **/
+@import "./mdcss.scss";
+
+aside{
+  background-color: #fafafa;
+}
+
+header{
+  position: fixed;
+  z-index: 10;
+}
+
+main{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  padding-top: 3.25rem;
+  min-height: 700px;
+}
+
+.navbar-item{
+  align-items: center;
+}
+
+.navbar-logo{
+  margin-right: 0.5rem;
+  border-radius: 50%;
+}
+
+.sidebar{
+  width:300px;
+  input:not(:checked) + label + ul {
+    display: none;
+  }
+  input{
+    display: none;
+  }
+  &__dropdown{
+    position: relative;
+    border-radius: 2px;
+    color: #4a4a4a;
+    display: block;
+    padding: 0.5em 0.75em;
+    cursor: pointer;
+    &:hover{
+      background-color: whitesmoke;
+      color: #363636;
+    }
+  }
+  &__icon{
+    position: absolute;
+    right: 0.5rem;
+  }
+  .sidebar__icon{
+    transition: 0.2s ease-in;
+  }
+  input:not(:checked) + label {
+    .sidebar__icon{
+      transform: scaleY(1);
+    }
+  }
+  input:checked + label {
+    .sidebar__icon{
+      transform: scaleY(-1)
+                 translateY(1px);
+    }
+  }
+}
+.wiki__post{
+  width: calc(100% - 300px);
+  padding:2%;
+}
+.tag:not(body).is-link{
+  background-color: whitesmoke;
+  color: #4a4a4a;
+  text-decoration: none;
+}
+.tagsearch__box{
+  max-width: 500px;
+}

@@ -1,25 +1,36 @@
-{% comment %}
+{%- comment -%}
   This include requires items to be passed as argument.
   Items are generated and stored in the `menu_items` variable in home layout.
   You can access the items in Liquid using `layout.menu_items`.
-{% endcomment %}
+{%- endcomment -%}
 
-{% assign items = include.items | default: [] %}
-{% if items.size > 0 %}
+{%- assign items = include.items | default: [] -%}
+{%- if items.size > 0 -%}
   
-  {% assign this_depth = include.depth | default: 0 %}
-  {% assign next_depth = this_depth    | plus: 1    %}
+  {%- assign this_depth = include.depth | default: 0 -%}
+  {%- assign next_depth = this_depth    | plus: 1    -%}
 
-  <ul data-menu-depth="{{ this_depth }}">
-  {% for item_hash_entry in items %}
-    {% assign item = item_hash_entry[1] %}
-    <li>
-      <a href="{{ item.url | relative_url }}">{{ item.name }}</a>
-      {% include dynamic-menu.html 
+  <ul class="{{ include.listClass }}" data-menu-depth="{{ this_depth }}">
+  {%- for item_hash_entry in items -%}
+    {%- assign item = item_hash_entry[1] -%}
+    <li class="{{ include.listItemClass }}">
+      {%- if item.layout == '' -%}
+        <input type="checkbox" id="item{{ this_depth }}-{{ forloop.index }}">
+        <label class="sidebar__dropdown" for="item{{ this_depth }}-{{ forloop.index }}">
+          {{ item.name }}
+          <span class="sidebar__icon icon">
+            <i class="fas fa-angle-down fa-lg"></i>
+          </span>
+        </label>
+      {%- else -%}
+        <a href="{{ item.url | relative_url }}" class="{{ include.linkClass }}">
+          {{ item.name }}
+        </a>
+      {%- endif -%}
+      {%- include dynamic-menu.html 
                  items=item.subitems
-                 depth=next_depth    %}
+                 depth=next_depth   -%}
     </li>
   {% endfor %}
-  </ul> 
-
+  </ul>
 {% endif %}
