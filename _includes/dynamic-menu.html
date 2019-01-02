@@ -14,7 +14,7 @@
   {% for item_hash_entry in items %}
     {% assign item = item_hash_entry[1] %}
     <li>
-      <a href="{{ item.url | prepend: site.baseurl }}">{{ item.name }}</a>
+      <a href="{{ item.url | relative_url }}">{{ item.name }}</a>
       {% include dynamic-menu.html 
                  items=item.subitems
                  depth=next_depth    %}
