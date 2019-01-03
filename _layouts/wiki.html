@@ -10,14 +10,16 @@ layout: default
 <script src="https://cdn.jsdelivr.net/npm/pjax/pjax.min.js"></script>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-MML-AM_CHTML' async></script>
 <script>
-var pjax = new Pjax({
-  selectors: ["title", ".js-Pjax"],
-  switches: {
-    ".js-Pjax": Pjax.switches.outerHTML
-  }
-});
-function ReloadMath() {
-  MathJax.Hub.Queue(["Typeset",MathJax.Hub]);
-}
-document.addEventListener("pjax:success", ReloadMath);
+  (function() { 
+    var pjax = new Pjax({
+      selectors: ["title", ".js-Pjax"],
+      switches: {
+        ".js-Pjax": Pjax.switches.outerHTML
+      }
+    });
+    function ReloadMath() {
+      MathJax.Hub.Queue(["Typeset",MathJax.Hub]);
+    }
+    document.addEventListener("pjax:success", ReloadMath);
+  })();
 </script>
