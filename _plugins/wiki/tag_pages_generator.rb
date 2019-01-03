@@ -7,6 +7,13 @@ module Wiki
   # depending on context, use File.join(*...), or join("/")
   TagPagesDir = ["wiki", "tags"]
 
+  # transforms each tag to a hash of:
+  #
+  #   { "name" => tag name, "url" => url to the tag page }
+  def self.tag_to_hash(tag)
+    {"name" => tag, "url" => [*TagPagesDir, tag].join("/")}
+  end
+
   # Represents a page for a tag that lists the documents under that tag.
   class TagPage < Jekyll::Page
     # text prepended to the title of this page, before the tag name
@@ -21,7 +28,9 @@ module Wiki
       # populate the content of this TagPage with whatever is specified in the layout
       read_yaml(@base, site.layouts[TagLayout].relative_path)
       self.data["title"] = "#{TagNamePrefix}#{tag_name}"
-      self.data["tag"] = "#{tag_name}"
+
+      # to help tag pages find all docs with the corresponding tag
+      self.data["tag"] = Wiki.tag_to_hash tag_name
     end
   end
 
@@ -37,14 +46,9 @@ module Wiki
           # for each wiki document, add all tags to the tag_set
           tag_set.merge(doc.data["tags"])
 
-          # transforms each tag to a hash of:
-          #
-          #   { "name" => tag name, "url" => url to the tag page }
-          #
-          # to reduce the logic in the template to find the tag page
-          doc.data["tags"].map! do |tag|
-            { "name" => tag, "url" => [*TagPagesDir, tag].join("/") }
-          end
+          # transform the tag name to a hash that contains both
+          # the name and the url to tag page
+          doc.data["tags"].map! &Wiki.method(:tag_to_hash)
           
           # returns the tag_set
           tag_set
