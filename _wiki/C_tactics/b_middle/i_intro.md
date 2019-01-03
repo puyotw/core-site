@@ -16,11 +16,22 @@ title: 概論
 
 以下介紹幾個中盤戰的概念。
 
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" media="all" href="normalize.css">
+    <link rel="stylesheet" media="all" href="core.css">
+    <link rel="stylesheet" media="all" href="style.css">
+    <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+</head>
+<body data-document>&nbsp;</body>
+</html>
+
 ## 同消的得分
 每次有連鎖時都會得分，落下的動作也會得分，而障礙氣泡的數量其實是由這兩者決定：
----
-: 送給對手的障礙氣泡個數＝（連鎖得分＋落下得分）除以70的商 :
----
+
+$$ 送給對手的障礙氣泡個數＝（連鎖得分＋落下得分）除以70的商 $$
+
 
 
 落下得分的計算方式簡單，按下的時候經過場上的一格就是加一分。連鎖得分的計算比較複雜，牽涉了連鎖數、同消的個數，以及同消的顏色數。其中對中盤戰重要的一點是，在消掉的氣泡數一樣的前提下，追求高同消與追求高連鎖的分數可能差不多，甚至更多！例如，左圖的情況是兩連鎖600分，而右圖的情況卻是一連鎖700分，
