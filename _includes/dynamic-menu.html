@@ -1,6 +1,6 @@
 {%- comment -%}
   This include requires items to be passed as argument.
-  Items are generated and stored in the `menu_items` variable in home layout.
+  Items are generated and stored in the `menu_items` variable in wiki layout.
   You can access the items in Liquid using `layout.menu_items`.
 {%- endcomment -%}
 
@@ -10,11 +10,15 @@
   {%- assign this_depth = include.depth | default: 0 -%}
   {%- assign next_depth = this_depth    | plus: 1    -%}
 
-  <ul class="{{ include.listClass }}" data-menu-depth="{{ this_depth }}">
+  <ul class="{{ include.list_class }}" data-menu-depth="{{ this_depth }}">
   {%- for item_hash_entry in items -%}
     {%- assign item = item_hash_entry[1] -%}
-    <li class="{{ include.listItemClass }}">
-      {%- if item.layout == '' -%}
+    <li class="{{ include.list_item_class }}">
+      {%- if item.layout -%}
+        <a href="{{ item.url | relative_url }}" class="{{ include.link_class }}">
+          {{ item.name }}
+        </a>
+      {%- else -%}
         <input type="checkbox" id="item{{ this_depth }}-{{ forloop.index }}">
         <label class="sidebar__dropdown" for="item{{ this_depth }}-{{ forloop.index }}">
           {{ item.name }}
@@ -22,15 +26,11 @@
             <i class="fas fa-angle-down fa-lg"></i>
           </span>
         </label>
-      {%- else -%}
-        <a href="{{ item.url | relative_url }}" class="{{ include.linkClass }}">
-          {{ item.name }}
-        </a>
       {%- endif -%}
       {%- include dynamic-menu.html 
-                 items=item.subitems
-                 depth=next_depth   -%}
+                  items=item.subitems
+                  depth=next_depth   -%}
     </li>
-  {% endfor %}
+  {%- endfor -%}
   </ul>
-{% endif %}
+{%- endif -%}

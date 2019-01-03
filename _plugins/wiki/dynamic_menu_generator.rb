@@ -35,9 +35,9 @@ module Wiki
         item_data = {
           "name" => "#{doc.data["title"]}",
           "url"  => "#{doc.url}",
-          "layout" => "#{doc.data["layout"]}",
+          "layout" => doc.data["layout"],
           "subitems" => Hash.new
-        } 
+        }
 
         # find where to insert item_data,
         # for each category, go one level deeper,

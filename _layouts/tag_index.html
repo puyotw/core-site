@@ -10,9 +10,9 @@ layout: wiki
         <a href="{{ sorted_page.url }}">
           {{ sorted_page.title | escape }}
         </a>
-        <div>
+        <p>
           {{ sorted_page.excerpt | strip_html }}
-        </div>
+        </p>
       </div>
     {%- endif -%}
   {%- endfor -%}

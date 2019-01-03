@@ -1,6 +1,3 @@
-{%- assign default_paths = site.pages | map: "path" -%}
-{%- assign page_paths = site.header_pages | default: default_paths -%}
-{%- assign titles_size = site.pages | map: 'title' | join: '' | size -%}
 <header class="site-header">
   <nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
     <div class="navbar-brand">
@@ -17,8 +14,7 @@
     </div>
     <div id="navbar-items" class="navbar-menu">
       <div class="navbar-start">
-        {%- for path in page_paths -%}
-          {%- assign my_page = site.pages | where: "path", path | first -%}
+        {%- for my_page in site.pages -%}
           {%- if my_page.title -%}
             <a class="navbar-item" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
           {%- endif -%}
