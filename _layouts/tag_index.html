@@ -1,15 +1,19 @@
 ---
-layout: default
+layout: wiki
 ---
-<article>
-    <h1>{{ page.title }}</h1>
-    {%- assign sorted_pages = site.wiki | sort: 'url' -%}
-    {%- for sorted_page in sorted_pages -%}
-        {%- for tag in sorted_page.tags -%}
-            {%- if tag.name == page.tag -%}
-                <div><a href="{{ sorted_page.url }}">{{ sorted_page.title }}</a></div>
-            {%- endif -%}
-        {%- endfor -%}
-    {%- endfor -%}
-    <div></div>
-</article>
+<h1>{{ page.title | escape }}</h1>
+{%- assign sorted_pages = site.wiki | sort: 'url' -%}
+{%- for sorted_page in sorted_pages -%}
+  {%- for tag in sorted_page.tags -%}
+    {%- if tag.name == page.tag -%}
+      <div class="tagsearch__box box">
+        <a href="{{ sorted_page.url }}">
+          {{ sorted_page.title | escape }}
+        </a>
+        <p>
+          {{ sorted_page.excerpt | strip_html }}
+        </p>
+      </div>
+    {%- endif -%}
+  {%- endfor -%}
+{%- endfor -%}

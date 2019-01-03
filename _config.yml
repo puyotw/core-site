@@ -30,7 +30,8 @@ keep_files:
   - CNAME
 
 # Theme settings
-github_username: puyotw
+sass:
+    style: compressed
 
 # Build settings
 markdown: kramdown

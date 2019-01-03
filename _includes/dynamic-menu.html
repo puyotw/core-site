@@ -1,25 +1,42 @@
-{% comment %}
+{%- comment -%}
   This include requires items to be passed as argument.
-  Items are generated and stored in the `menu_items` variable in home layout.
+  Items are generated and stored in the `menu_items` variable in wiki layout.
   You can access the items in Liquid using `layout.menu_items`.
-{% endcomment %}
+  You can pass list_class / link_class / list_item_class arguments to design your sidebar (optional).
+{%- endcomment -%}
 
-{% assign items = include.items | default: [] %}
-{% if items.size > 0 %}
+{%- assign items = include.items | default: [] -%}
+{%- if items.size > 0 -%}
   
-  {% assign this_depth = include.depth | default: 0 %}
-  {% assign next_depth = this_depth    | plus: 1    %}
+  {%- assign this_depth = include.depth | default: 0 -%}
+  {%- assign next_depth = this_depth    | plus: 1    -%}
 
-  <ul data-menu-depth="{{ this_depth }}">
-  {% for item_hash_entry in items %}
-    {% assign item = item_hash_entry[1] %}
-    <li>
-      <a href="{{ item.url | relative_url }}">{{ item.name }}</a>
-      {% include dynamic-menu.html 
-                 items=item.subitems
-                 depth=next_depth    %}
+  <ul class="{{ include.list_class }}" data-menu-depth="{{ this_depth }}">
+  {%- for item_hash_entry in items -%}
+    {%- assign item = item_hash_entry[1] -%}
+    {% capture this_id %}
+      item-{{ this_depth }}-{{ forloop.index }}
+    {% endcapture %}
+    <li class="{{ include.list_item_class }}">
+      {%- if item.layout -%}
+        <a href="{{ item.url | relative_url }}" class="{{ include.link_class }}">
+          {{ item.name }}
+        </a>
+      {%- else -%}
+        <input type="checkbox" id="{{ this_id }}">
+        <label class="sidebar__dropdown" for="{{ this_id }}">
+          {{ item.name }}
+          <span class="sidebar__icon icon">
+            <i class="fas fa-angle-down fa-lg"></i>
+          </span>
+        </label>
+      {%- endif -%}
+      {%- include dynamic-menu.html 
+                  items=item.subitems
+                  depth=next_depth
+                  list_item_class=include.list_item_class
+                  link_class=include.link_class -%}
     </li>
-  {% endfor %}
-  </ul> 
-
-{% endif %}
+  {%- endfor -%}
+  </ul>
+{%- endif -%}

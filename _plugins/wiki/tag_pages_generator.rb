@@ -14,8 +14,8 @@ module Wiki
 
     def initialize(site, tag_name)
       @site, @base = site, site.source
-      @dir = File.join(*TagPagesDir, tag_name)
-      @name = "index.html"
+      @dir = File.join(*TagPagesDir)
+      @name = "#{tag_name}.html"
 
       process(@name)
       # populate the content of this TagPage with whatever is specified in the layout
@@ -43,7 +43,7 @@ module Wiki
           #
           # to reduce the logic in the template to find the tag page
           doc.data["tags"].map! do |tag|
-            { "name" => tag, "url" => [site.baseurl, *TagPagesDir, tag].join("/") }
+            { "name" => tag, "url" => [*TagPagesDir, tag].join("/") }
           end
           
           # returns the tag_set

@@ -3,7 +3,7 @@ module Wiki
     # indicates which layout to store the menu items in,
     # inherited layouts do NOT have access the items, so 
     # this should be whatever layout that includes dynamic-menu.html
-    GenerateMenuForLayout = "home"
+    GenerateMenuForLayout = "wiki"
     # indicates the Hash key which the menu items can be accessed with
     MenuItemsKey = "menu_items"
 
@@ -35,8 +35,9 @@ module Wiki
         item_data = {
           "name" => "#{doc.data["title"]}",
           "url"  => "#{doc.url}",
+          "layout" => doc.data["layout"],
           "subitems" => Hash.new
-        } 
+        }
 
         # find where to insert item_data,
         # for each category, go one level deeper,
