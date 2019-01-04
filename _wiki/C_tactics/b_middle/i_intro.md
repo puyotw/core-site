@@ -3,7 +3,6 @@ layout: post
 title: 概論
 ---
 
-### 概論
 試想一個情況：你已經學會怎麼做出中型以上的連鎖，而你的對手也是。此時有甚麼因素能決定你們誰輸誰贏呢？
 
 * 雙方都放出主要的連鎖。拳頭大的就贏啦！
@@ -18,17 +17,31 @@ title: 概論
 以下介紹幾個中盤戰的概念。
 
 ## 同消的得分
+
 每次有連鎖時都會得分，落下的動作也會得分，而障礙氣泡的數量其實是由這兩者決定：
 
 $$
     \text{送給對手的障礙氣泡個數} = \left\lfloor\frac{\text{連鎖得分} + \text{落下得分}}{70}\right\rfloor
 $$
 
-落下得分的計算方式簡單，按住下的時候經過場上的一格就是加一分。連鎖得分的計算比較複雜，牽涉了連鎖數、同消的個數，以及同消的顏色數。其中對中盤戰重要的一點是，**在消掉的氣泡數一樣的前提下，追求高同消與追求高連鎖的分數可能差不多，甚至更多！**例如，同樣是消掉十顆氣泡，[這個情況](http://1st.geocities.jp/mattulwan/puyo_simulator/?a55c2a4b2a3b3a3c3a3)是兩連鎖600分，而[這個情況](http://1st.geocities.jp/mattulwan/puyo_simulator/?a66b5ac5a)卻是一連鎖700分。另舉一例，同樣消掉十二顆氣泡
-[這個情況](http://1st.geocities.jp/mattulwan/puyo_simulator/?a53ba3daca3d3a3b2ca3bc2)是三連鎖1000分，而[這個情況](http://1st.geocities.jp/mattulwan/puyo_simulator/?a57dbca3d3a3b2ca3bc2)是兩連鎖920分，只少了一～兩顆障礙氣泡，但給對手更短的反應時間！
+落下得分的計算方式簡單，按住下的時候經過場上的一格就是加一分。連鎖得分的計算比較複雜，牽涉了連鎖數、同消的個數，以及同消的顏色數。其中對中盤戰重要的一點是，**在消掉的氣泡數一樣的前提下，追求高同消與追求高連鎖的分數可能差不多，甚至更多！**例如，同樣是消掉十顆氣泡，[這個情況]是兩連鎖600分，而[這個情況]卻是一連鎖700分，不但更痛，也給對手更短的反應時間！
 
-從以上兩個例子，可看出荊棘與二ダブル的重要性。關於障礙氣泡的分數計算，參見障礙氣泡分數計算。
+| 兩連鎖600分|一連鎖700分|
+|:----------:|:----------:|
+| ![兩連鎖600分](https://i.imgur.com/IAGhqMu.png) |![一連鎖700分](https://i.imgur.com/MKf9XNQ.png) |
+
+另舉一例，同樣消掉十二顆氣泡，[這個情況]是三連鎖1000分，而[這個情況]是兩連鎖920分，只少了一～兩顆障礙氣泡，同樣給對手更短的反應時間。
+
+| 三連鎖1000分|兩連鎖920分|
+|:----------:|:----------:|
+| ![三連鎖1000分](https://i.imgur.com/dR6oLJZ.png) |![一連鎖700分](https://i.imgur.com/uMYZegu.png) |
+
+從以上兩個例子，可看出荊棘與二ダブル的重要性。關於障礙氣泡的分數計算，詳見障礙氣泡分數計算。
     
+[這個情況]: http://1st.geocities.jp/mattulwan/puyo_simulator/?a55c2a4b2a3b3a3c3a3
+[這個情況]: http://1st.geocities.jp/mattulwan/puyo_simulator/?a66b5ac5a
+[這個情況]: http://1st.geocities.jp/mattulwan/puyo_simulator/?a53ba3daca3d3a3b2ca3bc2
+[這個情況]: http://1st.geocities.jp/mattulwan/puyo_simulator/?a57dbca3d3a3b2ca3bc2
 
 ## 挖掘與反擊型連鎖
 
