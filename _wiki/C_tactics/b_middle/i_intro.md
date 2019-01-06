@@ -41,7 +41,7 @@ $$
 [simlink1]: http://1st.geocities.jp/mattulwan/puyo_simulator/?a55c2a4b2a3b3a3c3a3
 [simlink2]: http://1st.geocities.jp/mattulwan/puyo_simulator/?a66b5ac5a
 [simlink3]: http://1st.geocities.jp/mattulwan/puyo_simulator/?a53ba3daca3d3a3b2ca3bc2
-[sinlink4]: http://1st.geocities.jp/mattulwan/puyo_simulator/?a57dbca3d3a3b2ca3bc2
+[simlink4]: http://1st.geocities.jp/mattulwan/puyo_simulator/?a57dbca3d3a3b2ca3bc2
 
 ## 挖掘與反擊型連鎖
 
