@@ -142,3 +142,5 @@ $$
 |![兩連鎖360分](https://i.imgur.com/F9G3rcC.png)|![一連鎖240分](https://i.imgur.com/muuD101.png)|
 
 讀者可以自行計算作為練習，結果是：左圖$360$分、右圖$240$分。在4A4B的情況下，兩連鎖雖然會較慢取得全消，但此時攻擊力較高，通常都還是做兩連鎖，而非一連鎖同消。
+
+[^1]: [ぷよぷよにおける得点計算について](http://sengiken.web.fc2.com/html/tactics/column8.html).
