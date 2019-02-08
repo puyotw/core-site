@@ -1,4 +1,4 @@
 ---
-layout: post
-title:  規則相關
+layout: null
+title: 規則相關
 ---
