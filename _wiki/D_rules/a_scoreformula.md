@@ -17,9 +17,10 @@ D.a.iii.加倍時間
 
 當玩家發動一個總數為$n$的連鎖時，送給對手的障礙氣泡總數為
 
-$$
-\text{送給對手的障礙氣泡總數} = \left\lfloor \frac{1}{70} \left( \sum_{k=1}^{n}\text{第$k$連鎖得分}S_k + \text{連鎖發動前累積的落下得分}\right)\right\rfloor
-$$
+\begin{align*}
+& \text{送給對手的障礙氣泡總數} \\
+= & \left\lfloor \frac{1}{70} \left( \sum_{k=1}^{n}\text{第$k$連鎖得分}S_k + \text{連鎖發動前累積的落下得分}\right)\right\rfloor
+\end{align*}
 
 其中$\lfloor \ \rfloor$是向下取整，整個公式的意思是取括號內數字除以$70$的商。這個$70$就是「障礙氣泡的換算率」，預設為$70$，在近幾個版本玩家都能在遊戲內調整換算率。
 
