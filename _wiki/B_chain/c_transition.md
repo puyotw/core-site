@@ -2,6 +2,12 @@
 layout: post
 title: 折返
 ---
+{%- comment -%}
+related:
+受けの広さ
+TODO:
+多重折、連鎖尾用在折返、折返作為副砲
+{%- endcomment -%}
 
 折返，也有人叫作轉彎，日文為折り返し，英文稱作transition。他與連鎖尾都是作中型以上連鎖時必備的技巧。
 
