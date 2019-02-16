@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 障礙氣泡量公式
+tags: ['規則相關', '得分計算', '同消']
 ---
 {%- comment -%}
 related:
