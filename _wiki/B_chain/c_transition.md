@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 折返
+tags: ['連鎖', '手順', '副砲', '連鎖尾']
 ---
 {%- comment -%}
 related:
