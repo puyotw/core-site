@@ -12,20 +12,25 @@ script:
     - JEKYLL_ENV=production bundle exec jekyll build --destination $OUTPUT_DIR
 
 # both of the following scripts are deployment scripts,
-# but we don't deploy if the build is for a pull request.
 
 before_script:
     - |
       if [ "$TRAVIS_PULL_REQUEST" = "false" ]; then
         git clone "https://${GITHUB_TOKEN}@github.com/puyotw/puyotw.github.io.git" $OUTPUT_DIR
+      else
+        git clone "https://${GITHUB_TOKEN}@github.com/puyotw/preview-site.git"
+        mkdir preview-site/$TRAVIS_BUILD_NUMBER
+        ln -s "$(pwd)/preview-site/$TRAVIS_BUILD_NUMBER" $OUTPUT_DIR
+        # change config file to generate site with preview-site specific url
+        sed -i.bak \
+            "s|baseurl:.*|baseurl: \"$TRAVIS_BUILD_NUMBER\"|; s|url:.*|url: \"https://preview.puyo.tw\"|" \
+            _config.yml
       fi
 
 after_success:
     - |
-      if [ "$TRAVIS_PULL_REQUEST" = "false" ]; then
-        cd $OUTPUT_DIR
-        git add .
-        git commit -m "Travis build ${TRAVIS_BUILD_NUMBER} against commit ${TRAVIS_COMMIT}."
-        git push origin master
-      fi
+      cd $OUTPUT_DIR
+      git add .
+      git commit -m "Travis build ${TRAVIS_BUILD_NUMBER} against commit ${TRAVIS_COMMIT}."
+      git push origin master
       
