@@ -11,21 +11,29 @@ branches:
 script:
     - JEKYLL_ENV=production bundle exec jekyll build --destination $OUTPUT_DIR
 
-# both of the following scripts are deployment scripts,
-# but we don't deploy if the build is for a pull request.
+# both of the following scripts are deployment scripts:
+# in case of pull request, upload build artifacts to preview site;
+# otherwise, upload to core site.
 
 before_script:
     - |
       if [ "$TRAVIS_PULL_REQUEST" = "false" ]; then
-        git clone "https://${GITHUB_TOKEN}@github.com/puyotw/puyotw.github.io.git" $OUTPUT_DIR
+        git clone --depth 1 "https://${GITHUB_TOKEN}@github.com/puyotw/puyotw.github.io.git" $OUTPUT_DIR
+      else
+        git clone --depth 1 "https://${GITHUB_TOKEN}@github.com/puyotw/preview-site.git"
+        mkdir preview-site/$TRAVIS_PULL_REQUEST
+        ln -s "$(pwd)/preview-site/$TRAVIS_PULL_REQUEST" $OUTPUT_DIR
+        # change config file to generate site with preview-site specific url
+        sed -i.bak \
+            "s|^baseurl:.*$|baseurl: \"$TRAVIS_PULL_REQUEST\"|; s|^url:.*$|url: \"https://preview.puyo.tw\"|" \
+            _config.yml
+        # remove everything from the output dir in case this build request was re-triggered
+        rm -fr $OUTPUT_DIR/*
       fi
 
 after_success:
     - |
-      if [ "$TRAVIS_PULL_REQUEST" = "false" ]; then
-        cd $OUTPUT_DIR
-        git add .
-        git commit -m "Travis build ${TRAVIS_BUILD_NUMBER} against commit ${TRAVIS_COMMIT}."
-        git push origin master
-      fi
-      
+      cd $OUTPUT_DIR
+      git add . > /dev/null
+      git commit -m "Travis build $TRAVIS_BUILD_NUMBER against commit $TRAVIS_COMMIT. (#$TRAVIS_PULL_REQUEST)" > /dev/null
+      git push origin master
