@@ -55,23 +55,38 @@ module Figure
   #    If omitted, the default format is used.
   #
   # caption attributes:
-  # :attr format
+  # :attr txtfmt
+  #    :value Liquid template and Markdown
+  #    :optional
+  #
+  #    If specified, it becomes the caption text format of the caption. The `captext`
+  #    parameter is available. For example, ": {{ captext }}" is a format that generates
+  #    a caption text of something like ": My dog."
+  #
+  #    If the caption block is not present in the figure block, this text won't be
+  #    rendered on page.
+  #
+  #    If this attribute is omitted, the default format is used.
+  #
+  # :attr fmt
   #    :value Liquid template and Markdown
   #    :optional
   #
   #    If specified, it becomes the overall format of the caption. The `ref` and
-  #    `caption` parameters are available. For example, "{{ ref }}. {{ caption }}"
-  #    is a format that generates a caption of something like "Figure 1. My dog."
+  #    `caption` parameters are available. For example, "{{ ref }}: {{ caption }}"
+  #    is a format that generates a caption of something like "Figure 1: My dog."
   #
   #    If omitted, the default format is used.
   class FigureBlock < Liquid::Block
-    DefaultCaptionFormat = '*{{ ref }}*：{{ caption }}'
+    DefaultCaptionFormat = '*{{ ref }}*{{ caption }}'
     DefaultCaptionReferenceFormat = '圖 {{ num }}'
+    DefaultCaptionTextFormat = '：{{ captext }}'
   
     def initialize(tag, markup, context)
       super
       @caption = nil
       @ref_fmt = DefaultCaptionReferenceFormat
+      @captext_fmt = DefaultCaptionTextFormat
       @cap_fmt = DefaultCaptionFormat
       @current_block = @body = Liquid::BlockBody.new
   
@@ -105,7 +120,14 @@ module Figure
   
           # change caption format if defined in the markup
           markup = unquote(markup.strip)
-          @cap_fmt = if not markup.empty? then markup else @cap_fmt end
+          markup.scan(Liquid::TagAttributes) do |key, value|
+            case key
+            when 'fmt'
+              @cap_fmt = unquote value
+            when 'txtfmt'
+              @captext_fmt = unquote value
+            end
+          end
   
           return
         else
@@ -120,28 +142,25 @@ module Figure
     end
   
     def render(context)
-      caption   = Liquid::Template.parse(@cap_fmt);
-  
       # we need this converted to convert markdown to html
       # or else the final html would just be the original input markdown text
       converter = context.registers[:site].find_converter_instance(Jekyll::Converters::Markdown) 
   
       # generate the pieces of figure in markdown
-      body = @body.render(context)
-      cap  = caption.render({
+      body    = @body.render(context)
+      captext = if @caption.nil? then '' else Liquid::Template.parse(@captext_fmt).render({
+        'captext' => @caption.render(context).strip
+      }) end
+      caption = Liquid::Template.parse(@cap_fmt).render({
         'ref'     => @ref,
-        'caption' => @caption.render(context).strip
+        'caption' => captext
       })                                    
   
-      "<figure id=\"#{@label}\">"                    +
-        remove_paragraph(converter.convert(body))    +
-        if not @caption.nil? then
-          '<figcaption>'                             +
-            remove_paragraph(converter.convert(cap)) +
-          '</figcaption>'
-        else
-          ''
-        end                                          +
+      "<figure id=\"#{@label}\">"                      +
+        remove_paragraph(converter.convert(body))      +
+        '<figcaption>'                                 +
+          remove_paragraph(converter.convert(caption)) +
+        '</figcaption>'                                +
       '</figure>'
     end
   
