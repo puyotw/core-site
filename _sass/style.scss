@@ -13,3 +13,21 @@
 @import "./mdcss.scss";
 /** override bulma style **/
 @import "./bulma-override.scss";
+/** font **/
+@import url(//fonts.googleapis.com/earlyaccess/notosanstc.css);
+@font-face {
+  font-family: 'GenYoMinTW';
+  src: url('../font/GenYoMinTW-Regular.ttf');
+}
+
+body{
+  font-family: 'Noto Sans TC', sans-serif;
+}
+
+.MJXc-TeX-unknown-R{
+  font-family: 'GenYoMinTW' !important;
+}
+.MJXc-TeX-unknown-B{
+  font-family: 'GenYoMinTW' !important;
+  font-weight: bold;
+}
