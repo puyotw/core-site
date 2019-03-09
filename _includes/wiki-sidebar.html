@@ -3,16 +3,24 @@
     <div class="sidebar__inner">
       {%- include dynamic-menu.html 
                   items=layout.menu_items 
-                  list_class="menu-list" -%}
+                  list_class="menu-list"
+                  link_class="menu-link" -%}
     </div>
   </div>
 </aside>
 
 <script>
   (function() { 
-    document.getElementById('burger').addEventListener('click', function(e){
-      document.getElementById('sidebar').classList.toggle('sidebar--active');
-      document.getElementById('burger').classList.toggle('is-active');
+    document.addEventListener('click', function(e){
+      if(e.target.id === 'burger'){
+        e.preventDefault();
+        document.getElementById('sidebar').classList.toggle('sidebar--active');
+        document.getElementById('burger').classList.toggle('is-active');
+      }
+      else if(e.target.classList.contains('menu-link')){
+        document.getElementById('sidebar').classList.toggle('sidebar--active');
+        document.getElementById('burger').classList.toggle('is-active');
+      }
     });
   })();
 </script>
