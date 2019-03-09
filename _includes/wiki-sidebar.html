@@ -1,7 +1,20 @@
-<aside class="sidebar menu">
-  <div class="sidebar__inner">
-    {%- include dynamic-menu.html 
-                items=layout.menu_items 
-                list_class="menu-list" -%}
+<aside id="sidebar" class="sidebar menu">
+  <div class="sidebar__wrapper">
+    <div class="sidebar__inner">
+      {%- include dynamic-menu.html 
+                  items=layout.menu_items 
+                  list_class="menu-list" -%}
+    </div>
+  </div>
+  <div id="arrow" class="sidebar__button">
+    <div class="sidebar__arrow"></div>
   </div>
 </aside>
+
+<script>
+  (function() { 
+    document.getElementById('arrow').addEventListener('click', function(e){
+      document.getElementById('sidebar').classList.toggle('sidebar--active');
+    });
+  })();
+</script>

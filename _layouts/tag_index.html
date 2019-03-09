@@ -2,17 +2,18 @@
 layout: wiki
 ---
 <h1>{{ page.title | escape }}</h1>
-{%- assign sorted_docs = site.wiki 
-                         | where_exp: "doc",
-                           "doc.tags contains page.tag"
-                         | sort: "url" -%}
-{%- for sorted_doc in sorted_docs -%}
-  <div class="tagsearch__box box">
-    <a href="{{ sorted_doc.url }}">
-      {{ sorted_doc.title | escape }}
-    </a>
-    <p>
-      {{ sorted_doc.excerpt | strip_html }}
-    </p>
-  </div>
+{%- assign sorted_pages = site.wiki | sort: 'url' -%}
+{%- for sorted_page in sorted_pages -%}
+  {%- for tag in sorted_page.tags -%}
+    {%- if tag.name == page.tag -%}
+      <div class="tagsearch__box box">
+        <a href="{{ sorted_page.url }}">
+          {{ sorted_page.title | escape }}
+        </a>
+        <p>
+          {{ sorted_page.excerpt | strip_html }}
+        </p>
+      </div>
+    {%- endif -%}
+  {%- endfor -%}
 {%- endfor -%}

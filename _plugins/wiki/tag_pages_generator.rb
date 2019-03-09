@@ -46,9 +46,14 @@ module Wiki
           # for each wiki document, add all tags to the tag_set
           tag_set.merge(doc.data["tags"])
 
-          # transform the tag name to a hash that contains both
-          # the name and the url to tag page
-          doc.data["tags"].map! &Wiki.method(:tag_to_hash)
+          # transforms each tag to a hash of:
+          #
+          #   { "name" => tag name, "url" => url to the tag page }
+          #
+          # to reduce the logic in the template to find the tag page
+          doc.data["tags"].map! do |tag|
+            { "name" => tag, "url" => [*TagPagesDir, tag].join("/") }
+          end
           
           # returns the tag_set
           tag_set
