@@ -20,17 +20,167 @@
   src: url('../font/GenYoMinTW-Regular.ttf');
 }
 
-body{
+body {
   font-family: 'Noto Sans TC', sans-serif;
 }
 
-.MJXc-TeX-unknown-R{
+.MJXc-TeX-unknown-R {
   font-family: 'GenYoMinTW' !important;
 }
-.MJXc-TeX-unknown-B{
+.MJXc-TeX-unknown-B {
   font-family: 'GenYoMinTW' !important;
   font-weight: bold;
 }
-.MJXc-display{
-  overflow: auto;
+.MJXc-display {
+  overflow-x: auto !important;
+  overflow-y: hidden !important;
+}
+.mjx-chtml {
+  padding: 5px 0 !important;
+}
+
+.burger {
+  &__line {
+    height: 1px;
+    background-color: black;
+  }
+  &__button {
+    display: block flex;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    width: 3.25rem;
+    height: 3.25rem;
+    outline:none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    box-shadow: none;
+    border-radius: none;
+    border: none;
+    cursor: pointer;
+    background-color: #FAFAFA;
+  }
+}
+
+
+.sidebar {
+  flex-shrink: 0;
+  width: 300px;
+  z-index: 5;
+  background-color: #fafafa;
+  @include touch {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    overflow: hidden;
+    -webkit-transform: translateX(-300px);
+    -ms-transform: translateX(-300px);
+    transform: translateX(-300px);
+    -webkit-transition: -webkit-transform 0.3s ease-in;
+    transition: -webkit-transform 0.3s ease-in;
+    -o-transition: transform 0.3s ease-in;
+    transition: transform 0.3s ease-in;
+    transition: transform 0.3s ease-in, -webkit-transform 0.3s ease-in;
+  }
+  &__inner {
+    @include touch {
+      margin-top: 3.25rem;
+      padding-bottom: 5rem;
+    }
+  }
+  &__wrapper {
+    width: 300px;
+    height: 100%;
+    @include touch {
+      overflow-y: scroll;
+      &::-webkit-scrollbar {
+        height: 4px;
+        width: 3px;
+        background: #FAFAFA;
+        opacity: .3;
+      }
+      &::-webkit-scrollbar-button {
+        display: none;
+      }
+      &::-webkit-scrollbar-piece {
+        background: #eee;
+      }
+      &::-webkit-scrollbar-thumb {
+        background: #666;
+      }
+    }
+  }
+  &--active {
+    opacity: 1;
+    -webkit-transform: translateX(0px);
+        -ms-transform: translateX(0px);
+            transform: translateX(0px);
+    -webkit-transition: -webkit-transform 0.3s ease-in;
+    transition: -webkit-transform 0.3s ease-in;
+    -o-transition: transform 0.3s ease-in;
+    transition: transform 0.3s ease-in;
+    transition: transform 0.3s ease-in, -webkit-transform 0.3s ease-in;
+  }
+  input:not(:checked) + label + ul {
+    display: none;
+  }
+  input {
+    display: none;
+  }
+  &__dropdown {
+    position: relative;
+    border-radius: 2px;
+    color: #4a4a4a;
+    display: block;
+    padding: 0.5em 0.75em;
+    cursor: pointer;
+    &:hover {
+      background-color: whitesmoke;
+      color: #363636;
+    }
+  }
+  &__icon {
+    position: absolute;
+    right: 0.5rem;
+  }
+  .sidebar__icon {
+    -webkit-transition: 0.2s ease-in;
+    -o-transition: 0.2s ease-in;
+    transition: 0.2s ease-in;
+  }
+  input:not(:checked) + label {
+    .sidebar__icon {
+      -webkit-transform: scaleY(1);
+          -ms-transform: scaleY(1);
+              transform: scaleY(1);
+    }
+  }
+  input:checked + label {
+    .sidebar__icon {
+      -webkit-transform: scaleY(-1)
+                         translateY(1px);
+          -ms-transform: scaleY(-1)
+                         translateY(1px);
+              transform: scaleY(-1)
+                         translateY(1px);
+    }
+  }
+}
+
+.wiki__post {
+  max-width: 90vw;
+  padding: 2%;
+}
+
+.tag:not(body).is-link {
+  background-color: whitesmoke;
+  color: #4a4a4a;
+  text-decoration: none;
+}
+
+.tagsearch__box {
+  max-width: 500px;
 }

@@ -6,15 +6,13 @@
                   list_class="menu-list" -%}
     </div>
   </div>
-  <div id="arrow" class="sidebar__button">
-    <div class="sidebar__arrow"></div>
-  </div>
 </aside>
 
 <script>
   (function() { 
-    document.getElementById('arrow').addEventListener('click', function(e){
+    document.getElementById('burger').addEventListener('click', function(e){
       document.getElementById('sidebar').classList.toggle('sidebar--active');
+      document.getElementById('burger').classList.toggle('is-active');
     });
   })();
 </script>

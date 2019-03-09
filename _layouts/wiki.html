@@ -18,6 +18,8 @@ layout: default
       }
     });
     function ReloadMath() {
+      document.getElementById('sidebar').classList.toggle('sidebar--active');
+      document.getElementById('burger').classList.toggle('is-active');
       MathJax.Hub.Queue(["Typeset",MathJax.Hub]);
     }
     document.addEventListener("pjax:success", ReloadMath);

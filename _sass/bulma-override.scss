@@ -6,151 +6,25 @@ header{
 main{
   display: flex;
   flex-direction: row;
-  // min-height: 700px;
 }
 
-.navbar-item{
-  align-items: center;
-}
-
-.navbar-logo{
-  margin-right: 0.5rem;
-  border-radius: 50%;
-}
-
-.sidebar{
-  flex-shrink: 0;
-  width:300px;
-  z-index: 5;
-  @include mobile{
-    position: fixed;
-    padding-top: 3.25rem;
-    display: flex;
-    align-items: flex-end;
-    width: 360px;
-    top: 0;
-    bottom: 0;
-    -webkit-transform: translateX(-300px);
-    -ms-transform: translateX(-300px);
-    transform: translateX(-300px);
-    &__button{
-      cursor: pointer;
-      z-index: 5;
-      border-radius: 0 5px 5px 0;
-      width: 60px;
-      height: 60px;
-      box-shadow: 2px 2px 2px #4a4a4a;
-      margin-bottom: 5px;
-      background-color: #FAFAFA;
-    }
-    &__arrow{
-      width: 100%;
-      height: 100%;
-      background-image: url('../arrow.svg');
-      background-repeat: no-repeat;
-      background-position: 50% 50%;
-      -webkit-transition: -webkit-transform 0.3s ease-in;
-      transition: -webkit-transform 0.3s ease-in;
-      -o-transition: transform 0.3s ease-in;
-      transition: transform 0.3s ease-in;
-      transition: transform 0.3s ease-in, -webkit-transform 0.3s ease-in;
-    }
+.navbar {
+  &-brand{
+    background-color: #FAFAFA;
   }
-  &__wrapper{
-    width: 300px;
-    height: 100%;
-    background-color: #fafafa;
-    overflow-y: scroll;
-    &::-webkit-scrollbar{
-      height: 4px;
-      width: 3px;
-      background: #FAFAFA;
-      opacity: .3;
-    }
-    &::-webkit-scrollbar-button{
-      display: none;
-    }
-    &::-webkit-scrollbar-piece{
-      background: #eee;
-    }
-    &::-webkit-scrollbar-thumb{
-      background: #666;
-    }
+  &-burger {
+    margin-right: auto;
+    margin-left: 0;
   }
-  &--active{
-    opacity: 1;
-    -webkit-transform: translateX(0px);
-        -ms-transform: translateX(0px);
-            transform: translateX(0px);
-    -webkit-transition: -webkit-transform 0.3s ease-in;
-    transition: -webkit-transform 0.3s ease-in;
-    -o-transition: transform 0.3s ease-in;
-    transition: transform 0.3s ease-in;
-    transition: transform 0.3s ease-in, -webkit-transform 0.3s ease-in;
-    .sidebar__arrow{
-      -webkit-transform: rotateY(180deg);
-              transform: rotateY(180deg);
-      -webkit-transition: -webkit-transform 0.3s ease-in;
-      transition: -webkit-transform 0.3s ease-in;
-      -o-transition: transform 0.3s ease-in;
-      transition: transform 0.3s ease-in;
-      transition: transform 0.3s ease-in, -webkit-transform 0.3s ease-in;
-    }
+  &-item{
+    align-items: center;
+    background-color: #FAFAFA;
   }
-  input:not(:checked) + label + ul {
-    display: none;
+  &-logo{
+    margin-right: 0.5rem;
+    border-radius: 50%;
   }
-  input{
-    display: none;
+  &-menu{
+    background-color: #FAFAFA;
   }
-  &__dropdown{
-    position: relative;
-    border-radius: 2px;
-    color: #4a4a4a;
-    display: block;
-    padding: 0.5em 0.75em;
-    cursor: pointer;
-    &:hover{
-      background-color: whitesmoke;
-      color: #363636;
-    }
-  }
-  &__icon{
-    position: absolute;
-    right: 0.5rem;
-  }
-  .sidebar__icon{
-    -webkit-transition: 0.2s ease-in;
-    -o-transition: 0.2s ease-in;
-    transition: 0.2s ease-in;
-  }
-  input:not(:checked) + label {
-    .sidebar__icon{
-      -webkit-transform: scaleY(1);
-          -ms-transform: scaleY(1);
-              transform: scaleY(1);
-    }
-  }
-  input:checked + label {
-    .sidebar__icon{
-      -webkit-transform: scaleY(-1)
-                  translateY(1px);
-          -ms-transform: scaleY(-1)
-                  translateY(1px);
-              transform: scaleY(-1)
-                  translateY(1px);
-    }
-  }
-}
-.wiki__post{
-  max-width: 90vw;
-  padding:2%;
-}
-.tag:not(body).is-link{
-  background-color: whitesmoke;
-  color: #4a4a4a;
-  text-decoration: none;
-}
-.tagsearch__box{
-  max-width: 500px;
 }
