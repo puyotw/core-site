@@ -8,7 +8,7 @@ layout: wiki
                          | sort: "url" -%}
 {%- for sorted_doc in sorted_docs -%}
   <div class="tagsearch__box box">
-    <a href="{{ sorted_doc.url }}">
+      <a href="{{ sorted_doc.url | relative_url }}">
       {{ sorted_doc.title | escape }}
     </a>
     <p>
