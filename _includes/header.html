@@ -1,15 +1,14 @@
 <header class="site-header">
   <nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
     <div class="navbar-brand">
+      <button id="burger" class="navbar-burger burger__button">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
       <a class="navbar-item" rel="author" href="{{ "/" | relative_url }}">
         <img class="navbar-logo" src="https://yt3.ggpht.com/a-/AAuE7mAzF0YlAQv0YQxq35osxnWg0WGqpKzW33Aa=s288-mo-c-c0xffffffff-rj-k-no" width="30" height="30">
         <span>{{ site.title | escape }}</span>
-      </a>
-      <a role="button" class="navbar-burger burger" aria-label="menu"
-      aria-expanded="false" data-target="navbar-items">
-        <span aria-hidden="true"></span>
-        <span aria-hidden="true"></span>
-        <span aria-hidden="true"></span>
       </a>
     </div>
     <div id="navbar-items" class="navbar-menu">
