@@ -1,3 +1,5 @@
+require 'uri'
+
 class Niconico < Liquid::Tag
   Syntax = /^\s*([^\s]+)/
 
@@ -67,3 +69,26 @@ class YouTube < Liquid::Tag
 
   Liquid::Template.register_tag "youtube", self
 end
+
+
+
+class Simulator < Liquid::Tag
+  Syntax = /^\s*([^\s]+)/
+
+  def initialize(tagName, markup, tokens)
+    super
+
+    if markup =~ Syntax then
+      @id = URI.encode($1)
+    else
+      raise "No Simulator URL provided in the \"simulator\" tag"
+    end
+  end
+
+  def render(context)
+    "<div class=\"simulator\"><iframe width=\"560\" height=\"400\" frameborder=\"0\" allowfullscreen src=\"https://simulator.puyo.tw/player.html?#{@id}\"></iframe></div>"
+  end
+
+  Liquid::Template.register_tag "simulator", self
+end
+
