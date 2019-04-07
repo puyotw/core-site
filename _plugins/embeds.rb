@@ -79,7 +79,7 @@ class Simulator < Liquid::Tag
     super
 
     if markup =~ Syntax then
-      @id = URI.encode($1)
+      @id = $1
     else
       raise "No Simulator URL provided in the 'simulator' tag"
     end
