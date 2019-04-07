@@ -9,7 +9,7 @@ class Niconico < Liquid::Tag
     if markup =~ Syntax then
       @id = $1
     else
-      raise "No Niconico ID provided in the \"niconico\" tag"
+      raise "No Niconico ID provided in the 'niconico' tag"
     end
   end
 
@@ -37,7 +37,7 @@ class Twitch < Liquid::Tag
       end
 
     else
-      raise "No Twitch ID provided in the \"twitch\" tag"
+      raise "No Twitch ID provided in the 'twitch' tag"
     end
   end
 
@@ -59,7 +59,7 @@ class YouTube < Liquid::Tag
     if markup =~ Syntax then
       @id = $1
     else
-      raise "No YouTube ID provided in the \"youtube\" tag"
+      raise "No YouTube ID provided in the 'youtube' tag"
     end
   end
 
@@ -81,12 +81,12 @@ class Simulator < Liquid::Tag
     if markup =~ Syntax then
       @id = URI.encode($1)
     else
-      raise "No Simulator URL provided in the \"simulator\" tag"
+      raise "No Simulator URL provided in the 'simulator' tag"
     end
   end
 
   def render(context)
-    "<div class=\"simulator\"><iframe width=\"560\" height=\"400\" frameborder=\"0\" allowfullscreen src=\"https://simulator.puyo.tw/player.html?#{@id}\"></iframe></div>"
+    "<div class=\"simulator\"><iframe width=\"256\" height=\"480\" frameborder=\"0\" allowfullscreen src=\"https://simulator.puyo.tw/player.html?#{@id}\"></iframe></div>"
   end
 
   Liquid::Template.register_tag "simulator", self
