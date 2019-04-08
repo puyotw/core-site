@@ -82,4 +82,4 @@ tags: ['場地相關', '回轉']
 [^1]: [ぷよぷよ用語辞典 跳考](https://www26.atwiki.jp/puyowords/pages/95.html).
 [^2]: [ぷよぷよ用語辞典 昇竜ぷよ](https://www26.atwiki.jp/puyowords/pages/184.html).
 [^3]: [ぷよぷよ用語辞典 昇竜連鎖](https://www26.atwiki.jp/puyowords/pages/167.html).
-[^3]: [ぷよぷよ通　まわし、画面外操作完全攻略](https://puyo-camp.jp/posts/65520).
+[^]: [ぷよぷよ通　まわし、画面外操作完全攻略](https://puyo-camp.jp/posts/65520).
