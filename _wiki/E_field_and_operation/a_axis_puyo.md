@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 回轉的技巧
+title: 軸氣泡與子氣泡
 tags: ['場地相關', '回轉']
 ---
 
@@ -8,10 +8,12 @@ tags: ['場地相關', '回轉']
 
 每組氣泡預設的軸氣泡都是下面那顆。在視覺上，軸氣泡的外圍會有閃爍的白框。
 
-https://i.imgur.com/WFbpiZq.gif
-https://i.imgur.com/kqiUL0s.gif
+{% figure %}
+  ![軸氣泡1](https://i.imgur.com/WFbpiZq.gif)
+  ![軸氣泡2](https://i.imgur.com/kqiUL0s.gif)
+{% endfigure %}
 
-軸氣泡的存在，能讓玩家在某些情況藉著回轉讓氣泡更快落地。另一方面，也能實現「踢牆」的動作，也就是在貼著牆壁或是其他氣泡時朝著特定方向旋轉、藉此讓氣泡位移的技巧。以下介紹半回轉的概念，而關於其他回轉技巧，請見回轉技巧。
+軸氣泡的存在，能讓玩家在某些情況藉著回轉讓氣泡更快落地。另一方面，也能實現「踢牆」的動作，也就是在貼著牆壁或是其他氣泡時朝著特定方向旋轉、藉此讓氣泡位移的技巧。以下僅介紹半回轉的概念，關於更多回轉技巧，請見回轉的技巧。
 
 ## 半回轉
 
@@ -22,13 +24,16 @@ https://i.imgur.com/kqiUL0s.gif
 即使不是純色氣泡，也能利用半回轉來加速；例如前兩手為ABAB的情況，想使用GTR開場，可先把兩手都半回轉後放置於A、B行。
 
 {% figure %}
-  ![半回轉例子](http://alg-d.com/game/puyo/t0502.png)
+  ![半回轉例子](https://i.imgur.com/0KNrVIX.png)
 {% caption %}
   前兩手為ABAB的情況，若是想把他們縱地擺在A、B行，不妨都半回轉加快速度。
 {% endfigure %}
 
-
-https://www.nicovideo.jp/watch/sm31107718　2:56
+{%- comment -%}
+Bぷよ　第四回Sリーグ  半回轉決定勝負
+https://www.nicovideo.jp/watch/sm31107718
+2:56
+{%- endcomment -%}
 
 [^1]: [ぷよぷよ用語辞典 軸ぷよ](https://www26.atwiki.jp/puyowords/pages/307.html).
 [^2]: [ぷよぷよ通　まわし、画面外操作完全攻略](https://puyo-camp.jp/posts/65520).
