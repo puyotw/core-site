@@ -9,7 +9,7 @@ tags: ['場地相關', '回轉']
 每組氣泡預設的軸氣泡都是下面那顆。在視覺上，軸氣泡的外圍會有閃爍的白框。
 
 {% figure %}
-  ![軸氣泡1](https://i.imgur.com/WFbpiZq.gif) / 
+  ![軸氣泡1](https://i.imgur.com/WFbpiZq.gif)      
   ![軸氣泡2](https://i.imgur.com/kqiUL0s.gif)
 {% endfigure %}
 
