@@ -7,7 +7,7 @@ module Figure
   end
 
   # resets the numbering information for each page
-  Jekyll::Hooks.register :documents, :post_init do |doc|
+  Jekyll::Hooks.register :documents, :pre_render do |doc|
     # for every new page, we reset the numbering information
     self.numbering = {}
     self.curr_number = 0
@@ -20,7 +20,7 @@ module Figure
   #   some markdown, 
   #   the image would be put here
   #
-  # {% caption "<format string>" %}
+  # {% caption fmt:"<format string>" txtfmt:"<format string>" %}
   #
   #   some caption markdown;
   #   if the whole block is omitted, no caption nor numbering is generated for this figure.
