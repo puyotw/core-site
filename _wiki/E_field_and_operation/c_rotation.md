@@ -86,7 +86,7 @@ tags: ['場地相關', '回轉']
 所謂的快速半回轉（quick turn、クイックターン）是指氣泡被夾在兩個較高的行之間時，按兩下旋轉能夠快速半回轉的動作。
 
 {% figure %}
-  ![快速回轉](https://imgur.com/Oc3c71A)
+  ![快速回轉](https://i.imgur.com/Oc3c71A.png)
 {% caption %}
   這手氣泡藍綠落下至D行與F行之間的溝槽時，按兩下任意旋轉鍵可執行快速半回轉。在此情況不論輸入順順、順逆、逆順、逆逆，都可執行半回轉。
 {% endfigure %}
@@ -99,9 +99,9 @@ tags: ['場地相關', '回轉']
 
 由於軸氣泡只能轉到13列，若是B行與D行的高度皆為13，此方法便會失敗，氣泡只能在C行回轉。
 
-以下影片示範許多谷間回轉的例子，讀者可參考：
+以下影片示範許多谷間回轉的例子，讀者可參考[^5]：
 
-@[youtube](QvLNHT2iFqQ)
+[![谷間回轉影片](http://img.youtube.com/vi/QvLNHT2iFqQ/0.jpg)](http://www.youtube.com/watch?v=QvLNHT2iFqQ "まわしテクニックはさまっちょむ編")
 
 [^1]: [ぷよぷよ用語辞典 跳考](https://www26.atwiki.jp/puyowords/pages/95.html).
 [^2]: [ぷよぷよ用語辞典 昇竜ぷよ](https://www26.atwiki.jp/puyowords/pages/184.html).
