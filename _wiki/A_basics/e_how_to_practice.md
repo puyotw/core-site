@@ -18,8 +18,8 @@ title: 如何練習
 至於編輯器，可以任意地編輯場地，不妨用來天馬行空地做些連鎖（自爽XD），也可以跟模擬器搭配使用，來回比對。
 
 手機模擬器：[puyosim](https://puyos.im/)
-網頁模擬器：[とことんぷよぷよ](http://1st.geocities.jp/mattulwan/puyo_simulator/tokopuyo.html)
-網頁編輯器：[ぷよ図エディター](http://1st.geocities.jp/mattulwan/puyo_simulator/index.html?a78)、[Chain Simulator](https://puyonexus.com/chainsim/)
+網頁模擬器：[ぷよぷよ連鎖シミュレータ](http://www.puyop.com/s/)（上方的「エディタ」為編輯器，「とこぷよ」為模擬器）
+網頁編輯器：[ぷよぷよ連鎖シミュレータ](http://www.puyop.com/s/)、[Chain Simulator](https://puyonexus.com/chainsim/)
 
 ### 學習固定形狀的排法
 
