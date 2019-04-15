@@ -3,14 +3,6 @@ layout: post
 title: 障礙氣泡量公式
 tags: ['規則相關', '得分計算', '同消']
 ---
-{%- comment -%}
-related:
-B.h.iv.多連結的得分
-C.a.ii.全消、全消戰
-C.b.i.概論
-C.c.iii.高連鎖數vs高同消數
-D.a.iii.加倍時間
-{%- endcomment -%}
 
 在魔法氣泡的對戰中，玩家發動連鎖會給對手攻擊，也就是障礙氣泡。障礙氣泡的數量其實是由得分與加倍時間決定（得分顯示在場地的下方），而其中得分的算法，依據可消除的氣泡個數也有不同。以下，我們先討論在沒有加倍時間、可消除氣泡數量為4顆（預設可消除數量）的分數計算方法[^1]。
 
@@ -198,6 +190,15 @@ $$
 {:/comment}
 
 建置中，參考資料[List of attack powers](https://puyonexus.com/wiki/List_of_attack_powers)、[2個消し39連鎖](https://www.youtube.com/watch?v=hH0j24Rfwcg)
+
+{::comment}
+related:
+B.h.iv.多連結的得分
+C.a.ii.全消、全消戰
+C.b.i.概論
+C.c.iii.高連鎖數vs高同消數
+D.a.iii.加倍時間
+{:/comment}
 
 ## 加倍時間下的障礙氣泡
 
