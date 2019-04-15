@@ -25,24 +25,25 @@ $$
     \text{送給對手的障礙氣泡個數} = \left\lfloor\frac{\text{連鎖得分} + \text{落下得分}}{70}\right\rfloor
 $$
 
-落下得分的計算方式簡單，按住下的時候經過場上的一格就是加一分。連鎖得分的計算比較複雜，牽涉了連鎖數、同消的個數，以及同消的顏色數。其中對中盤戰重要的一點是，**在消掉的氣泡數一樣的前提下，追求高同消與追求高連鎖的分數可能差不多，甚至更多！**例如，同樣是消掉十顆氣泡，[這個情況][simlink1]是兩連鎖600分，而[這個情況][simlink2]卻是一連鎖700分，不但更痛，也給對手更短的反應時間！
+落下得分的計算方式簡單，按住下的時候經過場上的一格就是加一分。連鎖得分的計算比較複雜，牽涉了連鎖數、同消的個數，以及同消的顏色數。其中對中盤戰重要的一點是，**在消掉的氣泡數一樣的前提下，追求高同消與追求高連鎖的分數可能差不多，甚至更多！**例如，同樣是消掉十顆氣泡，下圖左是兩連鎖600分，而下圖右卻是一連鎖700分，不但更痛，也給對手更短的反應時間！
 
-| 兩連鎖600分|一連鎖700分|
-|:----------:|:----------:|
-| ![兩連鎖600分](https://i.imgur.com/IAGhqMu.png) |![一連鎖700分](https://i.imgur.com/MKf9XNQ.png) |
+{% figure %}
+  [![兩連鎖600分](https://i.imgur.com/xaQGNyT.png)](https://puyonexus.com/chainsim/chain/CqWMC) 
+  [![一連鎖700分](https://i.imgur.com/LeVyddR.png)](https://puyonexus.com/chainsim/chain/Qrhzk)
+{% caption %}
+  圖左：兩連鎖600分；圖右：一連鎖700分。點圖片可進入編輯器，按Start連鎖會自動開始，下方並顯示分數。
+{% endfigure %}
 
-另舉一例，同樣消掉十二顆氣泡，[這個情況][simlink3]是三連鎖1000分，而[這個情況][simlink4]是兩連鎖920分，只少了一～兩顆障礙氣泡，同樣給對手更短的反應時間。
+另舉一例，同樣消掉十二顆氣泡，下圖左是三連鎖1000分，而下圖右是兩連鎖920分，只少了一～兩顆障礙氣泡，同樣給對手更短的反應時間。
 
-| 三連鎖1000分|兩連鎖920分|
-|:----------:|:----------:|
-| ![三連鎖1000分](https://i.imgur.com/dR6oLJZ.png) |![一連鎖700分](https://i.imgur.com/uMYZegu.png) |
+{% figure %}
+  [![三連鎖1000分](https://i.imgur.com/uJULDOK.png)](https://puyonexus.com/chainsim/chain/vNbE7) 
+  [![兩連鎖920分](https://i.imgur.com/acZukLD.png)](https://puyonexus.com/chainsim/chain/2GYj4)
+{% caption %}
+    圖左：三連鎖1000分；圖右：兩連鎖920分。點圖片可進入編輯器，按Start連鎖會自動開始，下方並顯示分數。
+{% endfigure %}
 
 從以上兩個例子，可看出擅用「荊棘」與「二連雙消」等同消連鎖的重要性。關於障礙氣泡的分數計算，詳見障礙氣泡分數計算。
-    
-[simlink1]: http://1st.geocities.jp/mattulwan/puyo_simulator/?a55c2a4b2a3b3a3c3a3
-[simlink2]: http://1st.geocities.jp/mattulwan/puyo_simulator/?a66b5ac5a
-[simlink3]: http://1st.geocities.jp/mattulwan/puyo_simulator/?a53ba3daca3d3a3b2ca3bc2
-[simlink4]: http://1st.geocities.jp/mattulwan/puyo_simulator/?a57dbca3d3a3b2ca3bc2
 
 ## 挖掘與反擊型連鎖
 
