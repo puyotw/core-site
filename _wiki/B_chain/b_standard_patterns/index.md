@@ -1,4 +1,4 @@
 ---
 layout: post
-title:  定型
+title: 定型
 ---
