@@ -10,6 +10,6 @@ tags: ['連鎖', '定型', '段差']
 
 3-1階段中文教學影片：[Puyo基礎教學 by 白哥](https://www.youtube.com/watch?v=Cso12CkyWLA)
 
-日文網頁攻略教學：[ぷよぷよ講座  階段積み](http://alg-d.com/game/puyo/chain1.html)、[階段積みの積み方とコツ](https://jiyu-cho.com/puyopuyo-kaidan)、[れんのぷよぷよ連鎖教室 階段](http://ren-channnel.com/kaidan/)等等
+日文網頁攻略教學：[ぷよぷよ講座  階段積み](http://alg-d.com/game/puyo/chain1.html)、[階段積みの積み方とコツ！](https://jiyu-cho.com/puyopuyo-kaidan)、[れんのぷよぷよ連鎖教室 階段](http://http://ren-channnel.com/kagi/)等等
 
 英文網頁攻略教學：[Puyo Nexus Patterns 1: Stairs](https://puyonexus.com/wiki/Patterns_1:_Stairs)
