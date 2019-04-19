@@ -24,4 +24,4 @@ tags: ['連鎖', '定型', '插入式']
 
 英文網頁攻略教學：[Puyo Nexus Patterns 2: Sandwich](https://puyonexus.com/wiki/Patterns_2:_Sandwich)
 
-[^1]: [Puyo教學 - 折返、GTR、連鎖尾 by acliv](https://youtu.be/VvUC88qDAFg?t=100).
+[^1]: [Puyo教學 - 折返、GTR、連鎖尾 by acliv](https://youtube/VvUC88qDAFg?t=100).
