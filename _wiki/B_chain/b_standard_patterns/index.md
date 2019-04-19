@@ -1,4 +1,4 @@
 ---
 layout: null
-title: 土台
+title: 定型
 ---

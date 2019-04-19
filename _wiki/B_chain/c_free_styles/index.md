@@ -1,4 +1,4 @@
 ---
 layout: null
-title:  概論
+title: 不定型
 ---

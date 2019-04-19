@@ -3,12 +3,6 @@ layout: post
 title: 折返
 tags: ['連鎖', '手順', '副砲', '連鎖尾']
 ---
-{%- comment -%}
-related:
-受けの広さ
-TODO:
-3-1折返的顏色衝突、墊子、多重折、連鎖尾用在折返、折返作為副砲
-{%- endcomment -%}
 
 折返，也有人叫作轉彎，日文為折り返し，英文稱作transition。他與連鎖尾都是作中型以上連鎖時必備的技巧。
 
@@ -73,3 +67,10 @@ TODO:
 |發展例1|發展例2|
 |:----------:|:----------:|
 |![圖13](https://i.imgur.com/mQZDjTb.png)|![圖14](https://i.imgur.com/RVSLXWB.png)|
+
+{%- comment -%}
+related:
+受けの広さ
+TODO:
+3-1折返的顏色衝突、墊子、多重折、連鎖尾用在折返、折返作為副砲
+{%- endcomment -%}
