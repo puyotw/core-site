@@ -1,10 +1,10 @@
 ---
 layout: post
-title: 鑰匙排法（建置中）
+title: 鑰匙（建置中）
 tags: ['連鎖', '定型', '插入式']
 ---
 
-鑰匙排法，中文又稱為三明治或是key，日文為鍵積み（かぎつみ），英文稱作sandwich。他是利用插入式連鎖的一種固定形狀的連鎖排法，與[階梯]({{ "wiki/B_chain/b_standard_patterns/i_stairs" | relative_url }})兩者被合稱為「定型」，代表相對於「不定型」而言，他們的形狀容易理解，適合初學者作為入門的排法。
+鑰匙，中文又稱為三明治或是key，日文為鍵積み（かぎつみ），英文稱作sandwich。他是利用插入式連鎖的一種固定形狀的連鎖排法，與[階梯]({{ "wiki/B_chain/b_standard_patterns/i_stairs" | relative_url }})兩者被合稱為「定型」，代表相對於「不定型」而言，他們的形狀容易理解，適合初學者作為入門的排法。
 
 {% figure %}
   ![key1](https://puyonexus.com/chainsim/image/Ztuv6.png)
