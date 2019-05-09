@@ -128,10 +128,12 @@ body {
     transition: transform 0.3s ease-in, -webkit-transform 0.3s ease-in;
   }
   input:not(:checked) + label + ul {
-    max-height: 0;
     margin-top: 0;
     margin-bottom: 0;
     opacity: 0;
+    li {
+      height: 0;
+    }
   }
   input {
     display: none;
@@ -190,10 +192,14 @@ body {
 .tagsearch__box {
   max-width: 500px;
 }
-
-.menu-list li ul {
-  opacity: 100;
-  max-height: 100vh;
-  overflow-y: hidden;
-  transition: opacity 1s, margin-top 1s, margin-bottom 1s, max-height 1s;
+.menu-list li {
+  ul {
+    opacity: 100;
+    overflow-y: hidden;
+    transition: opacity .7s, margin-top .7s, margin-bottom .7s;
+  }
+  label + ul > li {
+    height: 2em;
+    transition: height .7s;
+  }
 }
