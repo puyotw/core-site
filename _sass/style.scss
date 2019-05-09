@@ -128,7 +128,9 @@ body {
     transition: transform 0.3s ease-in, -webkit-transform 0.3s ease-in;
   }
   input:not(:checked) + label + ul {
-    display: none;
+    height: 0;
+    margin: 0;
+    opacity: 0;
   }
   input {
     display: none;
@@ -186,4 +188,10 @@ body {
 
 .tagsearch__box {
   max-width: 500px;
+}
+
+.menu-list li ul {
+  opacity: 100;
+  overflow-y: hidden;
+  transition: opacity 1s, margin-top 1s, margin-bottom 1s;
 }
