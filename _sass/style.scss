@@ -132,7 +132,7 @@ body {
     margin-bottom: 0;
     opacity: 0;
     li {
-      height: 0;
+      max-height: 0;
     }
   }
   input {
@@ -196,10 +196,10 @@ body {
   ul {
     opacity: 100;
     overflow-y: hidden;
-    transition: opacity .7s, margin-top .7s, margin-bottom .7s;
+    transition: opacity .7s, margin-top .7s ease , margin-bottom .7s ease;
   }
   label + ul > li {
-    height: 2em;
-    transition: height .7s;
+    max-height: 100vh;
+    transition: max-height .4s cubic-bezier(.25,.46,.18,.93);
   }
 }
