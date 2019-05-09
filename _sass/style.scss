@@ -200,6 +200,6 @@ body {
   }
   label + ul > li {
     max-height: 100vh;
-    transition: max-height .4s cubic-bezier(.25,.46,.18,.93);
+    transition: max-height 0.4s cubic-bezier(.83,.43,0,1.02);
   }
 }
