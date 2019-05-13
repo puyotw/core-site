@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 階梯（建置中）
+title: 階梯
 tags: ['連鎖', '定型', '段差']
 ---
 
