@@ -9,9 +9,9 @@ tags: ['連鎖', '定型', '段差']
 階梯分為三種：3-1階梯、2-2階梯、1-3階梯，其中又以3-1階梯最為常見，階梯也常常代稱為3-1階梯。
 
 {% figure %}
-  [![3-1](https://i.imgur.com/NZi4oWL.png)](https://puyonexus.com/chainsim/image/d2en6.png)
-  [![2-2](https://i.imgur.com/9R9h39g.png)](https://puyonexus.com/chainsim/image/YaxfJ.png)
-  [![1-3](https://i.imgur.com/ZjfTlli.png)](https://puyonexus.com/chainsim/image/PBcvZ.png)
+  [![3-1](https://i.imgur.com/NZi4oWL.png)](https://puyonexus.com/chainsim/chain/d2en6)
+  [![2-2](https://i.imgur.com/9R9h39g.png)](https://puyonexus.com/chainsim/chain/YaxfJ)
+  [![1-3](https://i.imgur.com/ZjfTlli.png)](https://puyonexus.com/chainsim/chain/PBcvZ)
 {% caption %}
 階梯分為三種，由左而右分別為3-1、2-2、1-3。
 {% endfigure %}
@@ -27,10 +27,10 @@ tags: ['連鎖', '定型', '段差']
 讀者仔細觀察會發現，比起上面的標準形狀，左一跟左二的E行黃色上面不是直接擺綠色，而是先放了其他顏色（此情況是紅色），再放綠色。由於紅色被埋住，綠色的連鎖後便能再接紅色，這也是左一跟左二能多出一連鎖的原因。至於右二，也是因為F行下面先擺了顆紅色，因此綠色接完後也能接紅色。
 
 {% figure %}
-[![3-1妥協1](https://i.imgur.com/puIvqia.png)](https://puyonexus.com/chainsim/image/AVUYS.png)
-[![3-1妥協2](https://i.imgur.com/2Aoroky.png)](https://puyonexus.com/chainsim/image/jb39T.png)
-[![3-1妥協3](https://i.imgur.com/IFZlbBE.png)](https://puyonexus.com/chainsim/image/vJAnz.png)
-[![3-1妥協4](https://i.imgur.com/2VCyrRQ.png)](https://puyonexus.com/chainsim/image/CGpq7.png)
+[![3-1妥協1](https://i.imgur.com/puIvqia.png)](https://puyonexus.com/chainsim/chain/AVUYS)
+[![3-1妥協2](https://i.imgur.com/2Aoroky.png)](https://puyonexus.com/chainsim/chain/jb39T)
+[![3-1妥協3](https://i.imgur.com/IFZlbBE.png)](https://puyonexus.com/chainsim/chain/vJAnz)
+[![3-1妥協4](https://i.imgur.com/2VCyrRQ.png)](https://puyonexus.com/chainsim/chain/CGpq7)
 {% caption %}
 {% endfigure %}
 
@@ -43,7 +43,7 @@ tags: ['連鎖', '定型', '段差']
 3-1的目標是每行縱三要相同顏色，依據來的氣泡，應適當選擇補足顏色、或是開啟新的一行。例如，假設前兩手是黃藍、黃綠，可將黃色擺在中間湊成兩顆，
 
 {% figure %}
-[![3-1要點1](https://i.imgur.com/QYaG7ft.png)](https://puyonexus.com/chainsim/image/7VSps.png)
+[![3-1要點1](https://i.imgur.com/QYaG7ft.png)](https://puyonexus.com/chainsim/chain/7VSps)
 {% caption %}
 {% endfigure %}
 
@@ -51,7 +51,7 @@ tags: ['連鎖', '定型', '段差']
 假設下一手為綠紅，由於C行已經是黃色、不能擺紅色，因此不妨多開新的一行，將綠紅擺在DE，
 
 {% figure %}
-[![3-1要點2](https://i.imgur.com/PdWft6a.png)](https://puyonexus.com/chainsim/image/t1H1Q.png)
+[![3-1要點2](https://i.imgur.com/PdWft6a.png)](https://puyonexus.com/chainsim/chain/t1H1Q)
 {% caption %}
 {% endfigure %}
 
@@ -64,14 +64,14 @@ tags: ['連鎖', '定型', '段差']
 例如，假設在下圖中，來的氣泡是綠黃，
 
 {% figure %}
-[![3-1要點3](https://i.imgur.com/FX0bjnr.png)](https://puyonexus.com/chainsim/image/VCgoo.png)
+[![3-1要點3](https://i.imgur.com/FX0bjnr.png)](https://puyonexus.com/chainsim/chain/VCgoo)
 {% caption %}
 {% endfigure %}
 
 那不妨把綠黃直立於D行，
 
 {% figure %}
-[![3-1要點4](https://i.imgur.com/0cZYK7e.png)](https://puyonexus.com/chainsim/image/mgRKq.png)
+[![3-1要點4](https://i.imgur.com/0cZYK7e.png)](https://puyonexus.com/chainsim/chain/mgRKq)
 {% caption %}
 {% endfigure %}
 
@@ -82,7 +82,7 @@ tags: ['連鎖', '定型', '段差']
 遇到不想要的氣泡時，如果排在中間幾行可能會造成同消。例如，下圖中擺了太多藍色，因此會造成綠色、藍色同消，總共只有兩連鎖。
 
 {% figure %}
-[![3-1要點5](https://i.imgur.com/FURIIfn.png)](https://puyonexus.com/chainsim/image/8JNk4.png)
+[![3-1要點5](https://i.imgur.com/FURIIfn.png)](https://puyonexus.com/chainsim/chain/8JNk4)
 {% caption %}
 {% endfigure %}
 
@@ -90,9 +90,9 @@ tags: ['連鎖', '定型', '段差']
 另外，由於3-1排法每行同色的氣泡都是三格高，即使讓第四顆氣泡墊高一些、增加一些段差，仍然能讓連鎖接起來。例如，下面三張圖都有黃→藍的二連鎖。
 
 {% figure %}
-[![3-1要點6](https://i.imgur.com/JHdKmXJ.png)](https://puyonexus.com/chainsim/image/ftJJX.png)
-[![3-1要點7](https://i.imgur.com/VlfJXNp.png)](https://puyonexus.com/chainsim/image/SourM.png)
-[![3-1要點8](https://i.imgur.com/97kYWh9.png)](https://puyonexus.com/chainsim/image/j2FiF.png)
+[![3-1要點6](https://i.imgur.com/JHdKmXJ.png)](https://puyonexus.com/chainsim/chain/ftJJX)
+[![3-1要點7](https://i.imgur.com/VlfJXNp.png)](https://puyonexus.com/chainsim/chain/SourM)
+[![3-1要點8](https://i.imgur.com/97kYWh9.png)](https://puyonexus.com/chainsim/chain/j2FiF)
 {% caption %}
 {% endfigure %}
 
