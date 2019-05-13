@@ -4,7 +4,7 @@ title: GTR（建置中）
 tags: ['連鎖', '不定型', '折返']
 ---
 
-GTR，在日文與英文中都以GTR稱呼，根據[Puyo Nexus](https://puyonexus.com/wiki/Patterns_and_Transitions_3:_GTR_%26_More)，他是Great Tanaka Rensa的簡稱。他可算是最知名的一種[折返]({{ "wiki/B_chain/d_transition" | relative_url }})排法。
+GTR，在日文與英文中都以GTR稱呼，根據[Puyo Nexus](https://puyonexus.com/wiki/Patterns_and_Transitions_3:_GTR_%26_More)，他是Great Tanaka Rensa的簡稱。他可說是最知名的一種[折返]({{ "wiki/B_chain/d_transition" | relative_url }})排法。
 
 ![Puyo Nexus GTR](http://www.puyonexus.com/chainsim/chainimage.php?w=6&h=12&chain=740000774000443000)
 
