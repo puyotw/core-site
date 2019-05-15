@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 鑰匙（建置中）
+title: 鑰匙
 tags: ['連鎖', '定型', '插入式']
 ---
 
