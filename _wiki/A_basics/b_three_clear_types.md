@@ -4,6 +4,7 @@ title: 連鎖的觸發條件
 ---
 
 這篇文章將連鎖的觸發條件廣泛地歸納成三種[^1]：段差式、插入式、幽靈連鎖。其中，前兩種包含了絕大多數的情況，之後進行實際的連鎖討論時主要也都會用這兩種。
+
 文末介紹鶴龜連鎖，他是段差式的一種特例。
 
 ## 段差式
@@ -49,12 +50,30 @@ title: 連鎖的觸發條件
 
 ## 段差式的特例：鶴龜連鎖
 
-若次序上相鄰的兩連鎖之間，彼此的氣泡並不相鄰，則稱為鶴龜連鎖。鶴龜連鎖例子：
+若次序上相鄰的兩連鎖之間，彼此的氣泡並不相鄰，則稱為鶴龜連鎖。以下為鶴龜連鎖的幾個例子，
+{% figure %}
+[![鶴龜例1](https://i.imgur.com/4QWE6ED.jpg)](https://puyonexus.com/chainsim/chain/kh4xF)
+[![鶴龜例2](https://i.imgur.com/HTZ3GtR.jpg)](https://puyonexus.com/chainsim/chain/jSKkt)
+[![鶴龜例3](https://i.imgur.com/SkkFd3Z.jpg)](https://puyonexus.com/chainsim/chain/oDJEu)
+{% caption %}
+鶴龜連鎖的三個例子。左圖為三連鎖，紅→藍之處為鶴龜；中圖為六連鎖，前兩連鎖的綠→綠為鶴龜；右圖為六連鎖，第二、第三連鎖的紅→紅為鶴龜。點擊圖像可連結到連鎖模擬器，按「Start」後能看到連鎖消除的動畫。
+{% endfigure %}
+
+鶴龜連鎖較為不直觀，讀者不妨點進上圖的連結，體會下鶴龜連鎖是如何進行的。
+
+當顏色來得不均勻，或是某個顏色來得太多時，鶴龜連鎖常是個不錯的解決辦法，例如，在下圖中，假設有位玩家想要排[2-2階梯]({{ "wiki/B_chain/b_standard_patterns/i_stairs" | relative_url }})，
 
 {% figure %}
-![鶴龜例子](https://i.imgur.com/F8kKvLI.jpg)
+[![鶴龜應用1](https://i.imgur.com/fo6gs75.jpg)](https://puyonexus.com/chainsim/chain/39Xsh)
+{% endfigure %}
+
+這個主線的發火點是B行的藍色，是個三連鎖，現在想要在E行再擺兩顆藍色，這樣就能成為四連鎖。然而，假設接下來的三手氣泡*完全沒有藍色*，而是紅黃、綠綠、綠綠。那麼，不妨臨時改變連鎖的預定順序，利用段差做成綠→綠的連鎖，等到之後藍色來時再補在F行。
+
+{% figure %}
+[![鶴龜應用2](https://i.imgur.com/m1V9mBW.jpg)](https://puyonexus.com/chainsim/chain/uSK8q)
+[![鶴龜應用3](https://i.imgur.com/if144Xb.jpg)](https://puyonexus.com/chainsim/chain/C1agu)
 {% caption %}
-鶴龜連鎖例子。上面三張圖中，運用鶴龜連鎖的地方分別為1. 紅→藍；2. 綠→綠；3. 紅→紅。
+鶴龜連鎖的應用實例。如左圖，將紅黃擺在E行，接下來的綠綠、綠綠兩手各擺在E行與F行，如此一來就能成為四連鎖，最後兩連鎖是綠→綠。之後藍色來時可再補在F行，成為五連鎖，如右圖。
 {% endfigure %}
 
 [^1]: [連鎖の仕組](http://alg-d.com/game/puyo/chain12.html)
