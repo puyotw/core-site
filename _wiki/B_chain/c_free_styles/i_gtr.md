@@ -8,7 +8,9 @@ GTR，在日文與英文中都以GTR稱呼，根據[Puyo Nexus](https://puyonexu
 
 ![Puyo Nexus GTR](http://www.puyonexus.com/chainsim/chainimage.php?w=6&h=12&chain=740000774000443000)
 
-GTR是不定型裡最常被使用的排法，在日本的職業比賽中亦能很常見到。由於GTR的形狀扁平，製作難度比[階梯]({{ "wiki/B_chain/b_standard_patterns/i_stairs" | relative_url }})或[鑰匙排法]({{ "wiki/B_chain/b_standard_patterns/ii_sandwich" | relative_url }})的折返來得容易；然而，GTR排完後剩餘的連鎖該如何延伸，考驗對其他排法的熟練度。 
+GTR是不定型裡最常被使用的排法，在日本的職業比賽中很常能見到；以台灣的比賽為例，[2019年的春季大賽](https://www.youtube.com/watch?v=PixL7IC_klA)也能看到許多使用GTR的比試。
+
+GTR可說是一種[折返]({{ "wiki/B_chain/d_transition" | relative_url }})的排法。由於GTR天生形狀扁平，他的製作難度比[階梯]({{ "wiki/B_chain/b_standard_patterns/i_stairs" | relative_url }})或[鑰匙]({{ "wiki/B_chain/b_standard_patterns/ii_sandwich" | relative_url }})的折返來得容易；然而，GTR排完後剩餘的連鎖該如何延伸，考驗對其他排法的熟練度。 
 
 ## 參考資料
 
