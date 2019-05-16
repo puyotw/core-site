@@ -25,7 +25,7 @@ GTR可說是一種[折返]({{ "wiki/B_chain/d_transition" | relative_url }})的�
 
 為了統一方便，以下都將GTR做在場地左側（也就是「左折」）。
 
-### aa ab
+### 1. aa ab
 
 將aa擺在AB行，將ab以a上b下擺在C行，
 
@@ -33,7 +33,7 @@ GTR可說是一種[折返]({{ "wiki/B_chain/d_transition" | relative_url }})的�
 [![先折GTR1](https://i.imgur.com/VDsgZTN.jpg)](https://puyonexus.com/chainsim/chain/ViDLo)
 {% endfigure %}
 
-### aa bb
+### 2. aa bb
 
 通常有兩種做法，1. 將aa擺在AB行，bb擺在CD行，如左圖；2. 將aa擺在AB行，bb擺在AB行，如右圖，
 
@@ -44,7 +44,7 @@ GTR可說是一種[折返]({{ "wiki/B_chain/d_transition" | relative_url }})的�
 
 如果想先把折返排好的話，通常會擺成右圖，之後再於A行再加一顆b，完成GTR的L字折返部分。
 
-### aa bc
+### 3. aa bc
 
 將aa擺在AB行，bc擺在CD行，
 
@@ -61,7 +61,7 @@ GTR可說是一種[折返]({{ "wiki/B_chain/d_transition" | relative_url }})的�
 右圖是個常見的GTR地基形狀。如果在aa bc的情況，第三手來了bb，便可將b放在D行，如左圖，然後再將第三手放在EF行，完成右圖的雛型。
 {% endfigure %}
 
-### ab ab
+### 4. ab ab
 
 通常會將兩個ab縱地放在AB行。另種做法是將ab以a下b上放在A行，下一手ab放在BC行，雖也能做出GTR雛形，但不常被使用。
 
@@ -70,7 +70,7 @@ GTR可說是一種[折返]({{ "wiki/B_chain/d_transition" | relative_url }})的�
 [![先折GTR8](https://i.imgur.com/ajqa3wh.jpg)](https://puyonexus.com/chainsim/chain/K65mA)
 {% endfigure %}
 
-### ab ac
+### 5. ab ac
 
 將ab以a下b上放在A行，下一手bc放在BC行。有些玩家會將第一手與第二手的順序調換，因此也將b與c（就是圖中的藍色跟黃色）的位置調換。
 
