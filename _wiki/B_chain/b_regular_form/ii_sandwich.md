@@ -4,7 +4,7 @@ title: 鑰匙
 tags: ['連鎖', '定型', '插入式']
 ---
 
-鑰匙排法，中文又稱為三明治或是key，SEGA官方的中文翻譯[^1]為「夾疊」。鑰匙的日文為鍵積み（かぎつみ），英文稱作sandwich。他是利用插入式連鎖的一種固定形狀的連鎖排法，與[階梯]({{ "wiki/B_chain/b_regular_form/i_stairs" | relative_url }})兩者被合稱為「定型」，代表相對於「不定型」而言，他們的形狀容易理解，適合初學者作為入門的排法。
+鑰匙排法，中文又稱為三明治或是key，SEGA官方的中文翻譯為「夾疊[^1]」。鑰匙的日文為鍵積み（かぎつみ），英文稱作sandwich。他是利用插入式連鎖的一種固定形狀的連鎖排法，與[階梯]({{ "wiki/B_chain/b_regular_form/i_stairs" | relative_url }})兩者被合稱為「定型」，代表相對於「不定型」而言，他們的形狀容易理解，適合初學者作為入門的排法。
 
 {% figure %}
   [![標準鑰匙1](https://i.imgur.com/mdv10Al.png)](https://puyonexus.com/chainsim/chain/Ztuv6)
