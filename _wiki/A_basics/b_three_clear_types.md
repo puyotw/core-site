@@ -17,7 +17,7 @@ title: 連鎖的觸發條件
 段差式連鎖例子。這七個例子，都是紅色→藍色的兩連鎖。
 {% endfigure %}
 
-段差式連鎖是個廣泛的概念，而他在定型排法的特化就是「[階梯]({{ "wiki/B_chain/b_standard_patterns/i_stairs" | relative_url }})」。
+段差式連鎖是個廣泛的概念，而他在定型排法的特化就是「[階梯]({{ "wiki/B_chain/b_regular_form/i_stairs" | relative_url }})」。
 
 ## 插入式
 
@@ -37,7 +37,7 @@ title: 連鎖的觸發條件
 ![混合式](https://i.imgur.com/FX4iFKh.jpg) 
 {% endfigure %}
 
-同樣地，插入式連鎖亦是個廣泛概念，他在定型排法的特化是「[鑰匙]({{ "wiki/B_chain/b_standard_patterns/ii_sandwich" | relative_url }})」。
+同樣地，插入式連鎖亦是個廣泛概念，他在定型排法的特化是「[鑰匙]({{ "wiki/B_chain/b_regular_form/ii_sandwich" | relative_url }})」。
 
 ## 幽靈連鎖
 
