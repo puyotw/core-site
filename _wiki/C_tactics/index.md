@@ -1,4 +1,4 @@
 ---
 layout: null
-title:  戰術
+title: 戰術
 ---
