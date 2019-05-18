@@ -58,7 +58,7 @@ title: 連鎖的觸發條件
 [![鶴龜例2](https://i.imgur.com/HTZ3GtR.jpg)](https://puyonexus.com/chainsim/chain/jSKkt)
 [![鶴龜例3](https://i.imgur.com/SkkFd3Z.jpg)](https://puyonexus.com/chainsim/chain/oDJEu)
 {% caption %}
-鶴龜連鎖的三個例子。左圖為三連鎖，紅→藍之處為鶴龜；中圖為六連鎖，前兩連鎖的綠→綠為鶴龜；右圖為六連鎖，第二、第三連鎖的紅→紅為鶴龜。點擊圖像可連結到連鎖模擬器，按「Start」後能看到連鎖消除的動畫。
+鶴龜連鎖的三個例子。左圖為兩連鎖，紅→藍之處為鶴龜；中圖為六連鎖，前兩連鎖的綠→綠為鶴龜；右圖為六連鎖，第二、第三連鎖的紅→紅為鶴龜。點擊圖像可連結到連鎖模擬器，按「Start」後能看到連鎖消除的動畫。
 {% endfigure %}
 
 鶴龜連鎖較為不直觀，讀者不妨點進上圖的連結，體會下鶴龜連鎖是如何進行的。
