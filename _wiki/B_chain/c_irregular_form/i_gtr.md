@@ -55,7 +55,7 @@ GTR可說是一種[折返]({{ "wiki/B_chain/d_transition" | relative_url }})的�
 這裡b跟c的位置可以交換，而究竟哪顆該在哪邊，由於第一手氣泡出來後已經能看到第三手，可以藉由第三手的氣泡決定b與c的位置。例如，若是前三手是aa bc bb，下面是個常見的排法，
 
 {% figure %}
-[![先折GTR5](https://i.imgur.com/6dT2a.jpg)](https://puyonexus.com/chainsim/chain/6LeVF)
+[![先折GTR5](https://i.imgur.com/qLUq4jI.jpg)](https://puyonexus.com/chainsim/chain/6LeVF)
 [![先折GTR6](https://i.imgur.com/6cBC60e.jpg)](https://puyonexus.com/chainsim/chain/Engwv)
 {% caption %}
 右圖是個常見的GTR地基形狀。如果在aa bc的情況，第三手來了bb，便可將b放在D行，如左圖，然後再將第三手放在EF行，完成右圖的雛型。
