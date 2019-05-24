@@ -28,6 +28,7 @@ module Wiki
       layout = site.layouts[GenerateMenuForLayout]
 
       top_level_item = Hash.new
+      category_map = Hash.new
 
       # each document has a menu item associated to it
       for doc in sorted_docs
@@ -54,6 +55,7 @@ module Wiki
           # if there is no subitems in the hash, this is a newly created Hash,
           # so this document must be an index document for that category that
           # contains metadata
+          category_map[item_data["url"].split('/')[-1] ] = item_data["name"]
           curr_level.replace(item_data)
         else
           # otherwise, this is a document in that category,
@@ -64,6 +66,7 @@ module Wiki
 
       # make the items available to the layout
       layout.data[MenuItemsKey] = { "" => top_level_item }
+      layout.data["category_map"] = category_map
       # or if you don't want the top level to appear in the menu,
       #
       #   layout.data[MenuItemsKey] = top_level_item["subitems"]

@@ -6,13 +6,22 @@ layout: wiki
                          | where_exp: "doc",
                            "doc.tags contains page.tag"
                          | sort: "url" -%}
-{%- for sorted_doc in sorted_docs -%}
-  <div class="tagsearch__box box">
-      <a href="{{ sorted_doc.url | relative_url }}">
-      {{ sorted_doc.title | escape }}
-    </a>
-    <p>
-      {{ sorted_doc.excerpt | strip_html }}
-    </p>
-  </div>
-{%- endfor -%}
+<div class="tagsearch__list">
+  {%- for sorted_doc in sorted_docs -%}
+    <div class="tagsearch__box box">
+      <ul class="tagsearch__categories">
+        {%- for category in sorted_doc.categories -%}
+          <li>{{ layout.category_map[category] }}</li>
+        {%- endfor -%}      
+      </ul>
+      <div class="tagsearch__content">
+        <a href="{{ sorted_doc.url | relative_url }}">
+          {{ sorted_doc.title | escape }}
+        </a>
+        <p>
+          {{ sorted_doc.excerpt | strip_html }}
+        </p>      
+      </div>
+    </div>
+  {%- endfor -%}  
+</div>
