@@ -126,6 +126,18 @@ L字，指的是同色氣泡以「L」的形狀三顆相連的狀態。排鑰匙
 做出黃色L字後，如果下手是紅綠，可將紅綠擺在E行，如圖左。右圖是個發展例。
 {% endfigure %}
 
+## 狂熱模式中的鑰匙
+
+在魔法氣泡狂熱中，進入狂熱模式（fever）後系統每次會給玩家一個已經排好的連鎖種子，玩家只需要消除發火點的氣泡便可發動大連鎖。狂熱模式中的連鎖種子最低是3連鎖，最高可以到15連鎖，而排法有四種：3-1階梯、鑰匙、不機嫌GTR、座布團（因此總共有4x13=52種連鎖種子）。
+
+{% figure %}
+![fever key](https://i.imgur.com/BLkBwp5.jpg)
+{% caption %}
+狂熱模式裡的鑰匙八連鎖，發火點是B行的綠色
+{% endfigure %}
+
+這四種排法的連鎖種子，他們的形狀都能在[Puyo Nexus的連鎖模擬器](https://puyonexus.com/chainsim/)找到。點選模擬器旁邊的「Chains」之後，可以看到Stairs、Key、Stairwich、Avalanche，他們就分別對應到3-1階梯、鑰匙、不機嫌GTR、座布團四種排法。
+
 ## 參考資料
 
 鑰匙排法中文教學影片：[魔法氣泡小學堂 by RM9](https://www.youtube.com/watch?v=tLOhr0HjnuM)、[魔法氣泡（PuyoPuyo）中高階教學　by acliv](https://www.youtube.com/watch?v=jTBsO61oDKE)
