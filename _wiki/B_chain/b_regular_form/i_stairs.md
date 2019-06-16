@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 階梯
-tags: ['連鎖', '定型', '段差']
+tags: ['連鎖', '定型', '段差', '地基']
 ---
 
 階梯，日文為階段（かいだん），英文稱作stairs。他是利用段差的一種固定形狀的連鎖排法，與[鑰匙排法]({{ "wiki/B_chain/b_standard_patterns/ii_sandwich" | relative_url }})兩者被合稱為「定型」，代表相對於「不定型」而言，他們的形狀容易理解，適合初學者作為入門的排法。
