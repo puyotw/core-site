@@ -1,10 +1,10 @@
 ---
 layout: post
-title: Fron排法
+title: fron排法
 tags: ['連鎖', '不定型', '地基']
 ---
 
-Fron排法（fron積，fronつみ）是由日本玩家ALF所發明的一種地基，因為職業選手fron很常使用，便以他的名字聞名。
+Fron排法（fron積，fronつみ）是由日本玩家ALF所發明的一種地基，由於日本職業選手fron很常使用，便以他的名字聞名。
 
 {% figure %}
 {% puyosim mode:0 %}
