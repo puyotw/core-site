@@ -1,6 +1,6 @@
 ---
 layout: post
-title: GTR（建置中）
+title: GTR
 tags: ['連鎖', '不定型', '折返', '地基']
 ---
 
