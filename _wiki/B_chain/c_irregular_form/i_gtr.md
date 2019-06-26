@@ -134,6 +134,7 @@ GTR的右側發展例，由左至右依序為：2-2階梯、2-2階梯變形、�
 || R G B G G Y ||
 || R R G B B G ||
 || G G B G Y Y ||
+++=============++
 {% endpuyosim %}
 {% puyosim mode:0 %}
                  
@@ -149,6 +150,7 @@ GTR的右側發展例，由左至右依序為：2-2階梯、2-2階梯變形、�
 || R G B G G Y ||
 || R R G B B G ||
 || G G B Y Y G ||
+++=============++
 {% endpuyosim %}
 {% puyosim mode:0 %}
                  
