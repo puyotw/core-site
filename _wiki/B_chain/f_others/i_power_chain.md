@@ -227,8 +227,8 @@ tags: ['連鎖', '同消', '戰術']
 || R Y R Y R   ||
 || Y Y R R Y   ||
 ++=============++
-{% figure %}
 {% endpuyosim %}
+{% figure %}
 {% caption %}
 名為「蠍子」的荊棘。
 {% endfigure %}
