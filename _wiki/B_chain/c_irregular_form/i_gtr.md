@@ -1,7 +1,7 @@
 ---
 layout: post
-title: GTR（建置中）
-tags: ['連鎖', '不定型', '折返']
+title: GTR
+tags: ['連鎖', '不定型', '折返', '地基', 'GTR']
 ---
 
 GTR，在日文與英文中都以GTR稱呼，根據[Puyo Nexus](https://puyonexus.com/wiki/Patterns_and_Transitions_3:_GTR_%26_More)，他是Great Tanaka Rensa的簡稱。他可說是最知名的一種[折返]({{ "wiki/B_chain/d_transition" | relative_url }})排法。
@@ -12,6 +12,183 @@ GTR，在日文與英文中都以GTR稱呼，根據[Puyo Nexus](https://puyonexu
 GTR是不定型裡最常被使用的排法，在日本的職業比賽中很常能見到；以台灣的比賽為例，[2019年的春季大賽](https://www.youtube.com/watch?v=PixL7IC_klA)也能看到許多使用GTR的比試。
 
 GTR可說是一種[折返]({{ "wiki/B_chain/d_transition" | relative_url }})的排法。由於GTR天生形狀扁平，他的製作難度比[階梯]({{ "wiki/B_chain/b_regular_form/i_stairs" | relative_url }})或[鑰匙]({{ "wiki/B_chain/b_regular_form/ii_sandwich" | relative_url }})的折返來得容易；然而，GTR排完後剩餘的連鎖該如何延伸，考驗對其他排法的熟練度。 
+
+## GTR右側發展
+
+GTR的右側可做階梯、鑰匙排法、L字地基、座布團，或是其他排法等等，發展非常地多。GTR的右側原來沒有固定的形狀，但讀者不妨練習其中幾種發展型，熟悉他們的手順之後，實戰中也能排得更快。
+
+下面這些發展型，即使是日本職業高手例如[delta](https://www.youtube.com/channel/UCjp023TT_em1TG7WnSKNG9w)、[マッキー](https://www.youtube.com/channel/UCuu-QRKPWp6yomlvygXcQbQ)等等也都很常使用，因此他們的對戰影片會是很好的GTR學習資源。值得一提的是，即使列出了這麼多的發展型，當然也還是無法囊括所有狀況；氣泡來的不好時該如何妥協、做出還可以的形狀，這也是重點之一，從高手的影片也能學習到他們如何在這些狀況做出好的妥協型。
+
+{% puyosim mode:0 %}
+                 
+||             ||
+||             ||
+||             ||
+||             ||
+||             ||
+||             ||
+||             ||
+||       Y Y   ||
+||       B R Y ||
+|| R G Y B R Y ||
+|| R R G Y B R ||
+|| G G Y Y B R ||
+++=============++
+{% endpuyosim %}
+{% puyosim mode:0 %}
+                 
+||             ||
+||             ||
+||             ||
+||             ||
+||             ||
+||             ||
+||             ||
+||         Y   ||
+||     B Y R Y ||
+|| R G Y B R Y ||
+|| R R G Y B R ||
+|| G G Y Y B R ||
+++=============++
+{% endpuyosim %}
+{% puyosim mode:0 %}
+                 
+||             ||
+||             ||
+||             ||
+||             ||
+||             ||
+||             ||
+||             ||
+||           G ||
+||     B Y R G ||
+|| R G B Y Y R ||
+|| R R G B R G ||
+|| G G B Y R G ||
+++=============++
+{% endpuyosim %}
+{% puyosim mode:0 %}
+                 
+||             ||
+||             ||
+||             ||
+||             ||
+||             ||
+||             ||
+||             ||
+||             ||
+||           G ||
+|| R G B Y G G ||
+|| R R G B Y Y ||
+|| G G B B Y G ||
+++=============++
+{% endpuyosim %}
+{% figure %}
+{% caption %}
+GTR的右側發展例，由左至右依序為：2-2階梯、2-2階梯變形、鑰匙排法、L字地基。
+{% endfigure %}
+
+{% puyosim mode:0 %}
+                 
+||             ||
+||             ||
+||             ||
+||             ||
+||             ||
+||             ||
+||             ||
+||             ||
+||       Y   Y ||
+|| R G B G Y Y ||
+|| R R G B G G ||
+|| G G Y B B G ||
+++=============++
+{% endpuyosim %}
+{% puyosim mode:0 %}
+                 
+||             ||
+||             ||
+||             ||
+||             ||
+||             ||
+||             ||
+||             ||
+||             ||
+||         G   ||
+|| R G B G Y G ||
+|| R R G B B Y ||
+|| G G B Y Y G ||
+++=============++
+{% endpuyosim %}
+{% puyosim mode:0 %}
+                 
+||             ||
+||             ||
+||             ||
+||             ||
+||             ||
+||             ||
+||             ||
+||             ||
+||           Y ||
+|| R G B G G Y ||
+|| R R G B B G ||
+|| G G B Y Y G ||
+++=============++
+{% endpuyosim %}
+{% puyosim mode:0 %}
+                 
+||             ||
+||             ||
+||             ||
+||             ||
+||             ||
+||             ||
+||             ||
+||             ||
+||           Y ||
+|| R G B G G Y ||
+|| R R G B B G ||
+|| G G B G Y Y ||
+++=============++
+{% endpuyosim %}
+{% puyosim mode:0 %}
+                 
+||             ||
+||             ||
+||             ||
+||             ||
+||             ||
+||             ||
+||             ||
+||             ||
+||         G   ||
+|| R G B G Y G ||
+|| R R G B B G ||
+|| G G B Y Y Y ||
+++=============++
+{% endpuyosim %}
+{% puyosim mode:0 %}
+                 
+||             ||
+||             ||
+||             ||
+||             ||
+||             ||
+||             ||
+||             ||
+||             ||
+||         Y Y ||
+|| R G B Y G Y ||
+|| R R G B B B ||
+|| G G Y G G G ||
+++=============++
+{% endpuyosim %}
+{% figure %}
+{% caption %}
+GTR的右側發展例，從左至右依序為：L字地基變形、Y字、熊排法、座布團、彌生時代變形。
+{% endfigure %}
+
 
 ## GTR初兩手討論
 
