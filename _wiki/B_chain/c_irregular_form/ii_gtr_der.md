@@ -102,7 +102,7 @@ tags: ['連鎖', '不定型', '折返', '地基', 'GTR']
 
 ## Misuken GTR
 
-Misuken GTR（ミスケンGTR）[^2]是日本傳奇玩家misuken偶爾會使用的GTR衍生型。https://www26.atwiki.jp/puyowords/pages/77.html
+Misuken GTR（ミスケンGTR）[^2]是日本傳奇玩家misuken偶爾會使用的GTR衍生型。
 
 {% puyosim mode:0 %}
                  
