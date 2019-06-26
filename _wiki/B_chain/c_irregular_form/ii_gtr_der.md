@@ -6,9 +6,103 @@ tags: ['連鎖', '不定型', '折返', '地基', 'GTR']
 
 ## 新GTR
 
+新GTR[^1]，是將底部往中央延伸一格的GTR。一般來說，像下面幾種都稱為新GTR，其中黃色可以是橫三或是L字。
+
+{% puyosim mode:0 %}
+                 
+||             ||
+||             ||
+||             ||
+||             ||
+||             ||
+||             ||
+||             ||
+||             ||
+||             ||
+||     R       ||
+|| Y Y Y R     ||
+|| R R R -     ||
+++=============++
+{% endpuyosim %}
+{% puyosim mode:0 %}
+                 
+||             ||
+||             ||
+||             ||
+||             ||
+||             ||
+||             ||
+||             ||
+||             ||
+||             ||
+||  Y R        ||
+||  Y Y R      ||
+|| R R R -     ||
+++=============++
+{% endpuyosim %}
+{% puyosim mode:0 %}
+                 
+||             ||
+||             ||
+||             ||
+||             ||
+||             ||
+||             ||
+||             ||
+||             ||
+||             ||
+||     R       ||
+|| Y Y Y R     ||
+|| B R R -     ||
+++=============++
+{% endpuyosim %}
+{% puyosim mode:0 %}
+
+與傳統GTR相比，新GTR露出的面積較大，因此吃到攻擊時也較容易挖掘。另外，新GTR的雛型在初期也較容易改變連鎖方向，例如，初期湊好了三顆黃色之後，
+
+{% puyosim mode:0 %}
+                 
+||             ||
+||             ||
+||             ||
+||             ||
+||             ||
+||             ||
+||             ||
+||             ||
+||             ||
+||             ||
+|| Y Y Y       ||
+|| B R R       ||
+++=============++
+{% endpuyosim %}
+
+若是來了三顆黃色外的顏色，可以考慮排在右邊，成為右折GTR：
+
+{% puyosim mode:0 %}
+                 
+||             ||
+||             ||
+||             ||
+||             ||
+||             ||
+||             ||
+||             ||
+||             ||
+|| B B         ||
+|| R R B Y     ||
+|| Y Y Y B     ||
+|| B R R G B B ||
+++=============++
+{% endpuyosim %}
+{% figure %}
+{% caption %}
+排完黃色與紅色的橫三後，也可以不排成新GTR，改成右折的後折GTR。原本左折的新GTR，黃色的下一連鎖幾乎一定要是紅色，因此在不來紅色的情況可以考慮改成右折。
+{% endfigure %}
+
 ## Misuken GTR
 
-Misuken GTR（ミスケンGTR）是日本傳奇玩家misuken偶爾會使用的GTR衍生型。https://www26.atwiki.jp/puyowords/pages/77.html
+Misuken GTR（ミスケンGTR）[^2]是日本傳奇玩家misuken偶爾會使用的GTR衍生型。https://www26.atwiki.jp/puyowords/pages/77.html
 
 {% puyosim mode:0 %}
                  
@@ -71,7 +165,9 @@ Misuken GTR（ミスケンGTR）是日本傳奇玩家misuken偶爾會使用的GT
 
 ## 鬱悶GTR
 
-鬱悶GTR（フキゲンGTR，sullen GTR）是往場地中央位移一格的GTR。根據[日文維基百科](https://www26.atwiki.jp/puyowords/pages/126.html)，「鬱悶GTR」的名稱由來是將棋裡的愉悅中飛車（ゴキゲン中飛車）戰術。
+鬱悶GTR（フキゲンGTR，sullen GTR）[^3]也是往場地中央位移一格的GTR，不過與新GTR相比，在鬱悶GTR中，被夾住的顏色其形狀並非橫三或L字，而是如下圖藍色的形狀。
+
+根據[^3]，「鬱悶GTR」的名稱由來是將棋裡的愉悅中飛車（ゴキゲン中飛車）戰術。
 
 {% puyosim mode:0 %}
                  
@@ -107,5 +203,9 @@ Misuken GTR（ミスケンGTR）是日本傳奇玩家misuken偶爾會使用的GT
 {% endpuyosim %}
 {% figure %}
 {% caption %}
-以左折的GTR為例，往右邊位移一格後就成了鬱悶GTR。右圖為延伸例，從F行的藍色發火。
+以左折的GTR為例，直接往右邊位移一格後就成了鬱悶GTR。右圖為延伸例，從F行的藍色發火。
 {% endfigure %}
+
+[^1]: [ぷよぷよ用語辞典 新GTR](https://www26.atwiki.jp/puyowords/pages/46.html).
+[^2]: [ぷよぷよ用語辞典 ミスケンGTR](https://www26.atwiki.jp/puyowords/pages/77.html).
+[^3]: [ぷよぷよ用語辞典 フキゲンGTR](https://www26.atwiki.jp/puyowords/pages/126.html).
