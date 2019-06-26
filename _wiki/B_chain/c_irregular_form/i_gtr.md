@@ -133,7 +133,7 @@ GTR的右側發展例，由左至右依序為：2-2階梯、2-2階梯變形、�
 ||           Y ||
 || R G B G G Y ||
 || R R G B B G ||
-|| G G B Y Y G ||
+|| G G B G Y Y ||
 ++=============++
 {% endpuyosim %}
 {% puyosim mode:0 %}
@@ -149,7 +149,7 @@ GTR的右側發展例，由左至右依序為：2-2階梯、2-2階梯變形、�
 ||           Y ||
 || R G B G G Y ||
 || R R G B B G ||
-|| G G B G Y Y ||
+|| G G B Y Y G ||
 ++=============++
 {% endpuyosim %}
 {% puyosim mode:0 %}
@@ -186,7 +186,7 @@ GTR的右側發展例，由左至右依序為：2-2階梯、2-2階梯變形、�
 {% endpuyosim %}
 {% figure %}
 {% caption %}
-GTR的右側發展例，從左至右依序為：L字地基變形、Y字、熊排法、座布團、彌生時代變形。
+GTR的右側發展例，從左至右依序為：L字地基變形、Y字、Y字、熊排法、座布團、彌生時代變形。
 {% endfigure %}
 
 
