@@ -14,6 +14,8 @@ permalink: /about/
 
 [Puyo Puyo Tetris Taiwan Youtube頻道](https://www.youtube.com/channel/UCc27V6_Bt4oj88O0dMimXaw)
 
+[Twitch團隊Pute TW](https://www.twitch.tv/team/putetw)
+
 ## 社群聚會
 
 本社群目前每月的單周五19:00-23:00皆有線下聚會，地點在台北板橋聚會空間「[GameMan#9 遊戲九館](https://www.facebook.com/gameman.no.9/)」（捷運府中站）
