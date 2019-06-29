@@ -10,9 +10,11 @@ permalink: /about/
 
 ## 更多社群資訊
 
-[台灣益智遊戲社群fb粉專](https://www.facebook.com/putetaiwan/)
+[PuTe TW fb粉專](https://www.facebook.com/putetaiwan/)
 
 [Puyo Puyo Tetris Taiwan Youtube頻道](https://www.youtube.com/channel/UCc27V6_Bt4oj88O0dMimXaw)
+
+[Twitch團隊 PuTe TW](https://www.twitch.tv/team/putetw)
 
 ## 社群聚會
 
