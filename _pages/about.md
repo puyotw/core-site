@@ -14,7 +14,7 @@ permalink: /about/
 
 [Puyo Puyo Tetris Taiwan Youtube頻道](https://www.youtube.com/channel/UCc27V6_Bt4oj88O0dMimXaw)
 
-[Twitch團隊Pute TW](https://www.twitch.tv/team/putetw)
+[Twitch團隊 Pute TW](https://www.twitch.tv/team/putetw)
 
 ## 社群聚會
 
