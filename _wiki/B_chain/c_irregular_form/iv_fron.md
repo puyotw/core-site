@@ -105,7 +105,7 @@ fron排法也常常做成用D行發火的速攻型。如果對手露出破綻，
 
 ### 速攻例1
 
-下圖是利用紅黃[八分之一]({{ "wiki/B_chain/f_others/ii_one_eight" | relative_url }})做出二連雙消的例子：
+下圖是利用紅黃[八分之一]({{ "wiki/B_chain/g_others/ii_one_eight" | relative_url }})做出二連雙消的例子：
 
 {% puyosim mode:0 %}
                  
