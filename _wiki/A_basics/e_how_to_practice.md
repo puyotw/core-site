@@ -29,6 +29,7 @@ title: 如何練習
 
 {% figure %}
 ![puyosim1](https://i.imgur.com/3Na4GF4.jpg){ width: 200px; }
+<img src="https://i.imgur.com/3Na4GF4.jpg" width="200">
 {% caption %}
 puyosim的介面，右邊的幾個按鈕包括順逆時針旋轉，上一手、下一手、左右移動、落下。
 {% endfigure %}
