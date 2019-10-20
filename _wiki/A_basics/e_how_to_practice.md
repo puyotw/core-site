@@ -28,7 +28,7 @@ title: 如何練習
 [puyosim](https://puyos.im/)是個手機app，支援android與ios系統，裡面有模擬器跟編輯器。下圖是他的介面：
 
 {% figure %}
-![puyosim1](https://i.imgur.com/3Na4GF4.jpg)
+![puyosim1](https://i.imgur.com/3Na4GF4.jpg){:height="50%" width="50%"}
 {% caption %}
 puyosim的介面，右邊的幾個按鈕包括順逆時針旋轉，上一手、下一手、左右移動、落下。
 {% endfigure %}
