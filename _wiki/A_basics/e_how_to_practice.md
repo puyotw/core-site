@@ -28,8 +28,7 @@ title: 如何練習
 [puyosim](https://puyos.im/)是個手機app，支援android與ios系統，裡面有模擬器跟編輯器。下圖是他的介面：
 
 {% figure %}
-![puyosim1](https://i.imgur.com/3Na4GF4.jpg){ width: 200px; }
-<img src="https://i.imgur.com/3Na4GF4.jpg" width="200">
+<puyosim1="https://i.imgur.com/3Na4GF4.jpg" width="300">
 {% caption %}
 puyosim的介面，右邊的幾個按鈕包括順逆時針旋轉，上一手、下一手、左右移動、落下。
 {% endfigure %}
@@ -37,7 +36,7 @@ puyosim的介面，右邊的幾個按鈕包括順逆時針旋轉，上一手、�
 介面右上角有個工具列，點出來後有其他功能：
 
 {% figure %}
-![puyosim2](https://i.imgur.com/nLsAjEi.jpg)
+<puyosim2="https://i.imgur.com/nLsAjEi.jpg" width="300">
 {% caption %}
 puyosim的工具列，上面是這局的相關資訊，下面的按鈕中，reset是同一局同個氣泡組合重新開始，restart是換一個氣泡組合重新開始，edit能切換到編輯器，另有分享跟讀寫功能，功能可說是相當豐富。
 {% endfigure %}
