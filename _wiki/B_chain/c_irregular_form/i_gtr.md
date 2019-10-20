@@ -211,7 +211,7 @@ GTR的右側發展例，從左至右依序為：L字地基變形、Y字、Y字�
 
 ### 2. aa bb
 
-通常有兩種做法，1. 將aa擺在AB行，bb擺在CD行，如左圖；2. 將aa擺在AB行，bb擺在AB行，如右圖，
+通常有兩種做法，1. 將aa擺在AB行，bb擺在CD行，如左圖；2. 將aa擺在AB行，bb擺在AB行，如下圖，
 
 {% figure %}
 [![先折GTR2](https://i.imgur.com/2tTSZj6.jpg)](https://puyonexus.com/chainsim/chain/KeonK)
