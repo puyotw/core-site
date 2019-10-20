@@ -12,19 +12,17 @@ tags: ['戰術', '中盤', '副砲', '同消', '凝視', '催促']
 
 <img src="https://i.imgur.com/osoMEFN.jpg" width="500">
 
-![戰術流程1](https://i.imgur.com/osoMEFN.png)
-
 荊棘對2P造成7顆障礙氣泡的攻擊；2P受到1P的催促，發動自己的副砲。而1P在此時同時發動主砲！
 
-![戰術流程2](https://i.imgur.com/HgjdADH.png)
+<img src="https://i.imgur.com/HgjdADH.jpg" width="500">
 
 1P的主砲是五連三消，對比之下2P的副砲是四連鎖，因此2P連鎖結束後還剩一點時間可以勉強發動主砲。
 
-![戰術流程3](https://i.imgur.com/LcIkAq7.png)
+<img src="https://i.imgur.com/LcIkAq7.jpg" width="500">
 
 2P的主砲是六連鎖，攻擊力不及1P的五連三消，還剩下一顆石頭，並且1P趁著這段時間已經排好第二波。此時2P已經是極端地不利。
 
-![戰術流程4](https://i.imgur.com/paytm64.png)
+<img src="https://i.imgur.com/paytm64.jpg" width="500">
 
 以上便是整個十字交叉法的流程，再次簡述如下：1P先用自己的小副砲來催促2P副砲，並在2P發動副砲時同時發動自己主砲；這個主砲威力大於2P主砲，並讓他沒有足夠時間加連鎖。
 
