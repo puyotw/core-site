@@ -10,7 +10,7 @@ tags: ['戰術', '中盤', '副砲', '同消', '凝視', '催促']
 
 在下圖的情況中，2P從黃色引爆有四連鎖的副砲，但這個副砲還需一段時間才能與主砲合體。此時1P發動一連鎖同消（荊棘）。
 
-<img src="https://i.imgur.com/osoMEFN.jpg" width="600">
+<img src="https://i.imgur.com/osoMEFN.jpg" width="500">
 
 ![戰術流程1](https://i.imgur.com/osoMEFN.png)
 
