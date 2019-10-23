@@ -12,7 +12,7 @@ title: 如何練習
 無論是不想被電腦小連鎖騷擾，或是想跟朋友互相練習大連鎖，都可擅用這個設定。
 
 {% figure %}
-<img src="https://i.imgur.com/BzOSL7w.jpg" width="500">
+<img src="https://i.imgur.com/BzOSL7w.jpg" width="650">
 {% caption %}
 以魔法氣泡eSports為例，在選完腳色後、開始遊戲之前的設定畫面，點選右邊的「遊戲設定」，裡面可以調整連鎖下限。
 {% endfigure %}
@@ -46,7 +46,7 @@ puyosim的工具列，上面是這局的相關資訊，下面的按鈕中，rese
 [sim.refpuyo.net](sim.refpuyo.net)是日本玩家ref製作的網頁模擬器跟編輯器。
 
 {% figure %}
-![refpuyo](https://i.imgur.com/8h85Op5.jpg)
+<img src="https://i.imgur.com/8h85Op5.jpg" width="500">
 {% caption %}
 用電腦瀏覽器看到的sim.refpuyo.net的介面。左邊的鍵盤按鍵操作資訊中，R是同一局同個氣泡組合重新開始，T是換一個氣泡組合重新開始，E是切換到編輯器，鍵盤1-8是在編輯器模式中選擇不同的氣泡。右測的長方形區域是用手機瀏覽時看到的介面，下方的五個按鈕是方向移動跟迴轉，方便在手機上使用。
 {% endfigure %}
