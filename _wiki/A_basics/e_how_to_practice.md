@@ -12,7 +12,7 @@ title: 如何練習
 無論是不想被電腦小連鎖騷擾，或是想跟朋友互相練習大連鎖，都可擅用這個設定。
 
 {% figure %}
-![連鎖下限](https://i.imgur.com/BzOSL7w.jpg)
+<img src="https://i.imgur.com/BzOSL7w.jpg" width="500">
 {% caption %}
 以魔法氣泡eSports為例，在選完腳色後、開始遊戲之前的設定畫面，點選右邊的「遊戲設定」，裡面可以調整連鎖下限。
 {% endfigure %}
