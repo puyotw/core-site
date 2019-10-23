@@ -6,8 +6,23 @@ tags: ['連鎖', '不定型', '折返', '地基', 'GTR']
 
 GTR，在日文與英文中都以GTR稱呼，根據[Puyo Nexus](https://puyonexus.com/wiki/Patterns_and_Transitions_3:_GTR_%26_More)，他是Great Tanaka Rensa的簡稱。他可說是最知名的一種[折返]({{ "wiki/B_chain/d_transition" | relative_url }})排法。
 
+{% puyosim mode:0 %}
+                 
+||             ||
+||             ||
+||             ||
+||             ||
+||             ||
+||             ||
+||             ||
+||             ||
+||             ||
+|| G R         ||
+|| G G R       ||
+|| R R -       ||
+++=============++
+{% endpuyosim %}
 {% figure %}
-[![Puyo Nexus GTR](https://i.imgur.com/mrIb5bv.jpg)](https://puyonexus.com/chainsim/chain/LR1Wi)
 {% endfigure %}
 GTR是不定型裡最常被使用的排法，在日本的職業比賽中很常能見到；以台灣的比賽為例，[2019年的春季大賽](https://www.youtube.com/watch?v=PixL7IC_klA)也能看到許多使用GTR的比試。
 
@@ -205,17 +220,62 @@ GTR的右側發展例，從左至右依序為：L字地基變形、Y字、Y字�
 
 將aa擺在AB行，將ab以a上b下擺在C行，
 
+{% puyosim mode:0 %}
+                 
+||             ||
+||             ||
+||             ||
+||             ||
+||             ||
+||             ||
+||             ||
+||             ||
+||             ||
+||             ||
+||     R       ||
+|| R R B       ||
+++=============++
+{% endpuyosim %}
 {% figure %}
-[![先折GTR1](https://i.imgur.com/VDsgZTN.jpg)](https://puyonexus.com/chainsim/chain/ViDLo)
 {% endfigure %}
 
 ### 2. aa bb
 
-通常有兩種做法，1. 將aa擺在AB行，bb擺在CD行，如左圖；2. 將aa擺在AB行，bb擺在AB行，如右圖，
+通常有兩種做法，1. 將aa擺在AB行，bb擺在CD行，如左圖；2. 將aa擺在AB行，bb擺在AB行，如下圖，
 
+{% puyosim mode:0 %}
+                 
+||             ||
+||             ||
+||             ||
+||             ||
+||             ||
+||             ||
+||             ||
+||             ||
+||             ||
+||             ||
+||             ||
+|| R R B B     ||
+++=============++
+{% endpuyosim %}
+{% puyosim mode:0 %}
+                 
+||             ||
+||             ||
+||             ||
+||             ||
+||             ||
+||             ||
+||             ||
+||             ||
+||             ||
+||             ||
+|| B B         ||
+|| R R         ||
+++=============++
+{% endpuyosim %}
 {% figure %}
-[![先折GTR2](https://i.imgur.com/2tTSZj6.jpg)](https://puyonexus.com/chainsim/chain/KeonK)
-[![先折GTR3](https://i.imgur.com/s1ZjTuN.jpg)](https://puyonexus.com/chainsim/chain/xDPa4)
 {% endfigure %}
 
 如果想先把折返排好的話，通常會擺成右圖，之後再於A行再加一顆b，完成GTR的L字折返部分。
@@ -224,34 +284,121 @@ GTR的右側發展例，從左至右依序為：L字地基變形、Y字、Y字�
 
 將aa擺在AB行，bc擺在CD行，
 
+{% puyosim mode:0 %}
+                 
+||             ||
+||             ||
+||             ||
+||             ||
+||             ||
+||             ||
+||             ||
+||             ||
+||             ||
+||             ||
+||             ||
+|| R R B Y     ||
+++=============++
+{% endpuyosim %}
 {% figure %}
-[![先折GTR4](https://i.imgur.com/ABcYYZX.jpg)](https://puyonexus.com/chainsim/chain/6dT2a)
 {% endfigure %}
 
 這裡b跟c的位置可以交換，而究竟哪顆該在哪邊，由於第一手氣泡出來後已經能看到第三手，可以藉由第三手的氣泡決定b與c的位置。例如，若是前三手是aa bc bb，下面是個常見的排法，
 
+{% puyosim mode:0 %}
+                 
+||             ||
+||             ||
+||             ||
+||             ||
+||             ||
+||             ||
+||             ||
+||             ||
+||             ||
+||             ||
+||             ||
+|| R R Y B B B ||
+++=============++
+{% endpuyosim %}
+{% puyosim mode:0 %}
+                 
+||             ||
+||             ||
+||             ||
+||             ||
+||             ||
+||             ||
+||             ||
+||             ||
+||             ||
+||   R Y   B   ||
+|| G G R Y Y Y ||
+|| R R Y B B B ||
+++=============++
+{% endpuyosim %}
 {% figure %}
-[![先折GTR5](https://i.imgur.com/qLUq4jI.jpg)](https://puyonexus.com/chainsim/chain/6LeVF)
-[![先折GTR6](https://i.imgur.com/6cBC60e.jpg)](https://puyonexus.com/chainsim/chain/Engwv)
-{% caption %}
-右圖是個常見的GTR地基形狀。如果在aa bc的情況，第三手來了bb，便可將b放在D行，如左圖，然後再將第三手放在EF行，完成右圖的雛型。
 {% endfigure %}
 
 ### 4. ab ab
 
 通常會將兩個ab縱地放在AB行。另種做法是將ab以a下b上放在A行，下一手ab放在BC行，雖也能做出GTR雛形，但不常被使用。
-
+{% puyosim mode:0 %}
+                 
+||             ||
+||             ||
+||             ||
+||             ||
+||             ||
+||             ||
+||             ||
+||             ||
+||             ||
+||             ||
+|| B B         ||
+|| R R         ||
+++=============++
+{% endpuyosim %}
+{% puyosim mode:0 %}
+                 
+||             ||
+||             ||
+||             ||
+||             ||
+||             ||
+||             ||
+||             ||
+||             ||
+||             ||
+||             ||
+|| B           ||
+|| R R B       ||
+++=============++
+{% endpuyosim %}
 {% figure %}
-[![先折GTR7](https://i.imgur.com/76JfDVH.jpg)](https://puyonexus.com/chainsim/chain/xDPa4)
-[![先折GTR8](https://i.imgur.com/ajqa3wh.jpg)](https://puyonexus.com/chainsim/chain/K65mA)
 {% endfigure %}
 
 ### 5. ab ac
 
 將ab以a下b上放在A行，下一手bc放在BC行。有些玩家會將第一手與第二手的順序調換，因此也將b與c（就是圖中的藍色跟黃色）的位置調換。
 
+{% puyosim mode:0 %}
+                 
+||             ||
+||             ||
+||             ||
+||             ||
+||             ||
+||             ||
+||             ||
+||             ||
+||             ||
+||             ||
+|| B           ||
+|| R R Y       ||
+++=============++
+{% endpuyosim %}
 {% figure %}
-[![先折GTR9](https://i.imgur.com/qW8RyQI.jpg)](https://puyonexus.com/chainsim/chain/n6jL7)
 {% endfigure %}
 
 ## 參考資料

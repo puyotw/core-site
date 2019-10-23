@@ -8,27 +8,27 @@ tags: ['戰術', '中盤', '副砲', '同消', '凝視', '催促']
 
 以下沿用ミスケン的原文[^1]來介紹這個戰術，在此之後，討論可能影響此戰術成功與否的因素。
 
-在下圖的情況中，2P從黃色引爆有四連鎖的副砲，但這個副砲還需一段時間才能與主砲合體。此時1P發動一連鎖同消（荊棘）。
+在下圖的情況中，2P從黃色引爆有四連鎖的副砲，但這個副砲還需一段時間才能與主砲合體。此時1P發動一連鎖[同消（荊棘）]({{"wiki/B_chain/f_others/i_power_chain" | relative_url }})。
 
-![戰術流程1](https://i.imgur.com/osoMEFN.png)
+<img src="https://i.imgur.com/osoMEFN.jpg" width="500">
 
 荊棘對2P造成7顆障礙氣泡的攻擊；2P受到1P的催促，發動自己的副砲。而1P在此時同時發動主砲！
 
-![戰術流程2](https://i.imgur.com/HgjdADH.png)
+<img src="https://i.imgur.com/HgjdADH.jpg" width="500">
 
 1P的主砲是五連三消，對比之下2P的副砲是四連鎖，因此2P連鎖結束後還剩一點時間可以勉強發動主砲。
 
-![戰術流程3](https://i.imgur.com/LcIkAq7.png)
+<img src="https://i.imgur.com/LcIkAq7.jpg" width="500">
 
 2P的主砲是六連鎖，攻擊力不及1P的五連三消，還剩下一顆石頭，並且1P趁著這段時間已經排好第二波。此時2P已經是極端地不利。
 
-![戰術流程4](https://i.imgur.com/paytm64.png)
+<img src="https://i.imgur.com/paytm64.jpg" width="500">
 
 以上便是整個十字交叉法的流程，再次簡述如下：1P先用自己的小副砲來催促2P副砲，並在2P發動副砲時同時發動自己主砲；這個主砲威力大於2P主砲，並讓他沒有足夠時間加連鎖。
 
 由於一來一往之下，雙方都先後放出主砲跟副砲，因此將戰術命名為十字交叉法[^2]。
 
-![十字交叉法名稱由來](https://i.imgur.com/ELH0GF5.png)
+<img src="https://i.imgur.com/ELH0GF5.jpg" width="600">
 
 ## 戰術討論
 
