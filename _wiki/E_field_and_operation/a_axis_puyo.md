@@ -9,7 +9,7 @@ tags: ['場地相關', '回轉']
 在氣泡剛出生時，軸氣泡是下面的那顆。在視覺上，軸氣泡的外圍會有閃爍的白框。
 
 {% figure %}
-<img src="https://i.imgur.com/WFbpiZq.gif" width="150">
+<img src="https://i.imgur.com/WFbpiZq.gif" height="150">
 <img src="https://i.imgur.com/kqiUL0s.gif" width="150">
 {% endfigure %}
 
