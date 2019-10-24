@@ -26,7 +26,7 @@ L字，指的是同色氣泡以「L」的形狀三顆相連的狀態。排鑰匙
   [![L字1](https://i.imgur.com/keNBFqE.png)](https://puyonexus.com/chainsim/chain/FtQJ2)
   [![L字2](https://i.imgur.com/SyUBkF5.png)](https://puyonexus.com/chainsim/chain/XFACR)
 {% caption %}
-運用L字的鑰匙變形。L字可以在較低的位置，如左圖第二連鎖的綠色，也可以在較高的位置，如左圖第五連鎖的藍色。另外，為了分別這兩種L字，也有人說較低的L字是3-0-1，而較高的L字是1-0-3。
+運用L字的鑰匙變形。L字可以在較低的位置，如左圖第二連鎖的綠色，也可以在較高的位置，如左圖第五連鎖的藍色。另外，為了區分這兩種L字，也有人說較低的L字是3-0-1，而較高的L字是1-0-3。
 {% endfigure %}
 
 ### 尾端妥協型
