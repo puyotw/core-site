@@ -10,7 +10,7 @@ tags: ['場地相關', '回轉']
 
 {% figure %}
 <img src="https://i.imgur.com/WFbpiZq.gif" height="150">
-<img src="https://i.imgur.com/kqiUL0s.gif" width="150">
+<img src="https://i.imgur.com/kqiUL0s.gif" height="150">
 {% endfigure %}
 
 軸氣泡的存在，能讓玩家在某些情況藉著回轉讓氣泡更快落地。另一方面，也能實現「踢牆」的動作，也就是在貼著牆壁或是其他氣泡時朝著特定方向旋轉、藉此讓氣泡位移的技巧。以下僅介紹半回轉的概念，關於更多回轉技巧，請見回轉的技巧。
