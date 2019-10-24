@@ -168,7 +168,7 @@ tags: ['連鎖', '副砲', '合體']
 
 ## 合體例3
 
-在這個例子中，鑰匙排法的一樓已經做好，需要適當的顏色來排好折返。
+在這個例子中，[鑰匙排法]({{ "wiki/B_chain/b_regular_form/ii_sandwich" | relative_url }})的一樓已經做好，需要適當的顏色來排好折返。
 
 {% puyosim mode:0 %}
                  
