@@ -90,6 +90,7 @@ $$
 || R R R R R R ||
 || B B B B B B ||
 ++=============++
+{% endpuyosim %}
 {% figure %}
 {% caption %}
 左圖：兩連鎖600分；右圖：一連鎖700分。
