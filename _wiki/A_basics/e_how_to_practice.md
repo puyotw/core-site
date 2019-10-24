@@ -85,4 +85,4 @@ puyosim的工具列，上面是這局的相關資訊，下面的按鈕中，rese
 
 魔法氣泡系列中有幾部作品有收錄解謎氣泡模式，解謎氣泡也單獨出成作品過。除了官方作品之外，網路上也有許多自做的題目，雖然這些題目的狀況與實戰狀況不一定相同，但筆者認為有事沒事做做看，有助於加快腦中模擬的速度。
 
-解謎氣泡網路資源：[戦技研 謎ぷよ問題集](http://sengiken.web.fc2.com/nazopuyo.html)、[石川をぷよぷよで染める会 なぞぷよ](http://www.spacelan.ne.jp/~shiroma/ips/nazo/)
+幾個解謎氣泡網路資源：[puyo-camp解謎氣泡文章](https://puyo-camp.jp/posts?utf8=✓&qe%5Bby_tags%5D%5B%5D=245&qe%5Bby_keywords%5D=&qe%5Bby_excluding_keywords%5D=&qe%5Bstart_year%5D=&qe%5Bstart_month%5D=&qe%5Bstart_day%5D=&qe%5Bend_year%5D=&qe%5Bend_month%5D=&qe%5Bend_day%5D=&commit=この条件で絞り込み)、[戦技研 謎ぷよ問題集](http://sengiken.web.fc2.com/nazopuyo.html)、[石川をぷよぷよで染める会 なぞぷよ](http://www.spacelan.ne.jp/~shiroma/ips/nazo/)
