@@ -59,20 +59,79 @@ $$
 
 落下得分的計算方式簡單，按住下的時候經過場上的一格就是加一分。連鎖得分的計算比較複雜，牽涉了連鎖數、同消的個數，以及同消的顏色數。而對中盤戰重要的一點是，**在消掉的氣泡數一樣的前提下，追求高同消與追求高連鎖的分數可能差不多，甚至更多！**例如，同樣是消掉十顆氣泡，下圖左是兩連鎖600分，而下圖右卻是一連鎖700分，不但更痛，也給對手更短的反應時間！
 
+{% puyosim mode:0 %}
+                 
+||             ||
+||             ||
+||             ||
+||             ||
+||             ||
+||             ||
+||             ||
+||             ||
+||   B B       ||
+||   R R       ||
+|| R R R       ||
+|| B B B       ||
+++=============++
+{% endpuyosim %}
+{% puyosim mode:0 %}
+                 
+||             ||
+||             ||
+||             ||
+||             ||
+||             ||
+||             ||
+||             ||
+||             ||
+||             ||
+||             ||
+|| R R R R R R ||
+|| B B B B B B ||
+++=============++
 {% figure %}
-  [![兩連鎖600分](https://i.imgur.com/xaQGNyT.png)](https://puyonexus.com/chainsim/chain/CqWMC) 
-  [![一連鎖700分](https://i.imgur.com/LeVyddR.png)](https://puyonexus.com/chainsim/chain/Qrhzk)
 {% caption %}
-  圖左：兩連鎖600分；圖右：一連鎖700分。點圖片可進入編輯器，按Start連鎖會自動開始，下方並顯示分數。
+左圖：兩連鎖600分；右圖：一連鎖700分。
 {% endfigure %}
 
 另舉一例，同樣消掉十二顆氣泡，下圖左是三連鎖1000分，而下圖右是兩連鎖920分，只少了一～兩顆障礙氣泡，同樣給對手更短的反應時間。
 
+{% puyosim mode:0 %}
+                 
+||             ||
+||             ||
+||             ||
+||             ||
+||             ||
+||             ||
+||             ||
+||           R ||
+||       Y   B ||
+||       Y Y Y ||
+||       R R B ||
+||       R B B ||
+++=============++
+{% endpuyosim %}
+{% puyosim mode:0 %}
+                 
+||             ||
+||             ||
+||             ||
+||             ||
+||             ||
+||             ||
+||             ||
+||             ||
+||       Y R B ||
+||       Y Y Y ||
+||       R R B ||
+||       R B B ||
+++=============++
+{% endpuyosim %}
 {% figure %}
-  [![三連鎖1000分](https://i.imgur.com/uJULDOK.png)](https://puyonexus.com/chainsim/chain/vNbE7) 
-  [![兩連鎖920分](https://i.imgur.com/acZukLD.png)](https://puyonexus.com/chainsim/chain/2GYj4)
 {% caption %}
-    圖左：三連鎖1000分；圖右：兩連鎖920分。點圖片可進入編輯器，按Start連鎖會自動開始，下方並顯示分數。
+左圖：三連鎖1000分，約等於14顆障礙氣泡；右圖：二連雙消920分，約等於13顆障礙氣泡。
 {% endfigure %}
 
 從以上兩個例子，可看出擅用「荊棘」與「二連雙消」等[同消連鎖]({{ "wiki/B_chain/g_others/i_power_chain" | relative_url }})的重要性。關於障礙氣泡的分數計算，詳見[障礙氣泡分數計算]({{ "wiki/D_rules/a_scoreformula" | relative_url }})。
@@ -100,7 +159,7 @@ $$
 {% endpuyosim %}
 {% figure %}
 {% caption %}
-    一個反擊型連鎖例子，吃了四排障礙氣泡後，可以用上方黃色L字發火。   
+一個反擊型連鎖例子，吃了四排障礙氣泡後，可以用上方黃色L字發火。   
 {% endfigure %}
 
 ## 凝視
