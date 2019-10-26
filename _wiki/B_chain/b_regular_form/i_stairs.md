@@ -330,7 +330,7 @@ tags: ['連鎖', '定型', '段差', '地基']
 {% figure %}
 ![fever 3-1](https://i.imgur.com/OCwGIWz.jpg)
 {% caption %}
-狂熱模式裡的3-1階梯七連鎖，發火點是B行的紅色
+狂熱模式裡的3-1階梯七連鎖，發火點是B行的紅色。
 {% endfigure %}
 
 這四種排法的連鎖種子，他們的形狀都能在[Puyo Nexus的連鎖模擬器](https://puyonexus.com/chainsim/)找到。點選模擬器旁邊的「Chains」之後，可以看到Stairs、Key、Stairwich、Avalanche，他們就分別對應到3-1階梯、鑰匙、不機嫌GTR、座布團四種排法。
