@@ -113,7 +113,7 @@ tags: ['戰術', '中盤', '副砲', '同消', '關鍵氣泡']
 
 ## 關鍵氣泡例1
 
-在下圖的[3-1階梯]({{ "wiki/B_chain/b_regular_form/i_stairs" | relative_url }})中，連鎖已經排到二樓，主砲發火點是B行的黃色，不過右側的連鎖還未與主砲連接。
+在下圖的[3-1階梯]({% link _wiki/B_chain/b_regular_form/i_stairs.md %})中，連鎖已經排到二樓，主砲發火點是B行的黃色，不過右側的連鎖還未與主砲連接。
 
 {% puyosim mode:0 %}
                  
@@ -175,7 +175,7 @@ D行擺上黃綠，可以將連鎖接起來；若是直接消除D行綠色，會
 
 ## 關鍵氣泡例2
 
-下圖的連鎖亦已經排到二樓，而且我們可以看出二樓連鎖的形狀有點像是[鑰匙排法]({{ "wiki/B_chain/b_regular_form/ii_sandwich" | relative_url }})。
+下圖的連鎖亦已經排到二樓，而且我們可以看出二樓連鎖的形狀有點像是[鑰匙排法]({% link _wiki/B_chain/b_regular_form/ii_sandwich.md %})。
 
 {% puyosim mode:0 %}
                  
@@ -256,7 +256,7 @@ D行擺上黃綠，可以將連鎖接起來；若是直接消除D行綠色，會
 左圖：在F行擺上黃綠後，從E行紅色發火四連鎖的副砲；右圖：如果C行的藍綠也補上了，就是個七連鎖的副砲。
 {% endfigure %}
 
-要是連一顆關鍵氣泡都不想補，也可以直接消掉C行的綠色，這是個[二連雙消]({{ "wiki/B_chain/g_others/i_power_chain" | relative_url }})的三連鎖！
+要是連一顆關鍵氣泡都不想補，也可以直接消掉C行的綠色，這是個[二連雙消]({% link _wiki/B_chain/g_others/i_power_chain.md %})的三連鎖！
 
 {% puyosim mode:0 %}
                  

@@ -8,7 +8,7 @@ tags: ['連鎖', '手順', '副砲', '連鎖尾']
 
 ## 折返是甚麼？
 
-讓我們以標準的[3-1階梯]({{ "wiki/B_chain/b_regular_form/i_stairs" | relative_url }})為例說明折返的概念。一個五連鎖的3-1階梯如下：
+讓我們以標準的[3-1階梯]({% link _wiki/B_chain/b_regular_form/i_stairs.md %})為例說明折返的概念。一個五連鎖的3-1階梯如下：
 
 {% figure %}
 {% puyosim mode: 0 %}
@@ -127,7 +127,7 @@ tags: ['連鎖', '手順', '副砲', '連鎖尾']
 
 ### 折返例1（鑰匙）
 
-假設已排好[鑰匙]({{ "wiki/B_chain/b_regular_form/ii_sandwich" | relative_url }})的地基，接下來三手分別為藍綠、綠綠、黃黃，
+假設已排好[鑰匙]({% link _wiki/B_chain/b_regular_form/ii_sandwich.md %})的地基，接下來三手分別為藍綠、綠綠、黃黃，
 
 {% figure %}
 {% puyosim mode:0 %}
@@ -212,7 +212,7 @@ tags: ['連鎖', '手順', '副砲', '連鎖尾']
 
 ### 折返例2（階梯）
 
-假設已經排好[3-1階梯]({{ "wiki/B_chain/b_regular_form/i_stairs" | relative_url }})地基的四連鎖，接下來三手分別為黃紅、黃紅、紅綠，
+假設已經排好[3-1階梯]({% link _wiki/B_chain/b_regular_form/i_stairs.md %})地基的四連鎖，接下來三手分別為黃紅、黃紅、紅綠，
 
 {% figure %}
 {% puyosim mode:0 %}
@@ -299,7 +299,7 @@ tags: ['連鎖', '手順', '副砲', '連鎖尾']
 
 ### 折返例3（GTR）
 
-[GTR]({{ "wiki/B_chain/c_irregular_form/i_gtr" | relative_url }})是一種特別的折返排法，在定義上，他只包含折返的L字與折返後的一連鎖，
+[GTR]({% link _wiki/B_chain/c_irregular_form/i_gtr.md %})是一種特別的折返排法，在定義上，他只包含折返的L字與折返後的一連鎖，
 
 {% figure %}
 {% puyosim mode:0 %}

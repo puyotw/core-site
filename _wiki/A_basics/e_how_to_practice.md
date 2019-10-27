@@ -63,7 +63,7 @@ puyosim的工具列，上面是這局的相關資訊，下面的按鈕中，rese
 
 ## 學習固定形狀的排法
 
-就像圍棋有定石一樣，魔法氣泡裡也有許多前人開發的固定排法。其中，[3-1階梯排法]({{ "wiki/B_chain/b_standard_patterns/i_stairs" | relative_url }})與[鑰匙排法]({{ "wiki/B_chain/b_standard_patterns/ii_sandwich" | relative_url }})的形狀特別容易理解，被稱為「定型」，其他有名字的排法都稱為「不定型」。
+就像圍棋有定石一樣，魔法氣泡裡也有許多前人開發的固定排法。其中，[3-1階梯排法]({% link _wiki/B_chain/b_regular_form/i_stairs.md %})與[鑰匙排法]({% link _wiki/B_chain/b_regular_form/ii_sandwich.md %})的形狀特別容易理解，被稱為「定型」，其他有名字的排法都稱為「不定型」。
 
 日本有位「飛車ちゅう」選手專門使用定型作戰，可用此關鍵字搜尋影片。
 

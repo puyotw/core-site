@@ -17,7 +17,7 @@ title: 連鎖的觸發條件
 段差式連鎖例子。這七個例子，都是紅色→藍色的兩連鎖。
 {% endfigure %}
 
-段差式連鎖是個廣泛的概念，而他在定型排法的特化就是「[階梯]({{ "wiki/B_chain/b_regular_form/i_stairs" | relative_url }})」。
+段差式連鎖是個廣泛的概念，而他在定型排法的特化就是「[階梯]({% link _wiki/B_chain/b_regular_form/i_stairs.md %})」。
 
 ## 插入式
 
@@ -37,13 +37,13 @@ title: 連鎖的觸發條件
 ![混合式](https://i.imgur.com/FX4iFKh.jpg) 
 {% endfigure %}
 
-同樣地，插入式連鎖亦是個廣泛概念，他在定型排法的特化是「[鑰匙]({{ "wiki/B_chain/b_regular_form/ii_sandwich" | relative_url }})」。
+同樣地，插入式連鎖亦是個廣泛概念，他在定型排法的特化是「[鑰匙]({% link _wiki/B_chain/b_regular_form/ii_sandwich.md %})」。
 
 > 註：在SEGA官方發布的中文教學「魔法氣泡課程」中，挟み込み並非翻譯成插入式，而是翻譯成「[夾疊](https://manual.sega.jp/puyopuyo_esports/ct/?pid=27)」。
 
 ## 幽靈連鎖
 
-魔法氣泡的場地，可見的部分是6行 x 12列，但其實有第13列存在。[第13列]({{ "wiki/E_field_and_operation/b_13and14row" | relative_url }})是不可看見的，但仍然可以往第13列擺上氣泡；另一方面，擺在第13列的氣泡即使有同色四顆也不會消除。
+魔法氣泡的場地，可見的部分是6行 x 12列，但其實有第13列存在。[第13列]({% link _wiki/E_field_and_operation/b_13and14row.md %})是不可看見的，但仍然可以往第13列擺上氣泡；另一方面，擺在第13列的氣泡即使有同色四顆也不會消除。
 在下圖中，藍色有四顆相連，但第四顆在第13列，因此不會消除，必須等紅色消掉後，四顆藍色掉下來才會消除，因此形成「紅→藍」的二連鎖。像這樣的連鎖便稱為「幽靈連鎖」。
 
 {% figure %}
@@ -63,7 +63,7 @@ title: 連鎖的觸發條件
 
 鶴龜連鎖較為不直觀，讀者不妨點進上圖的連結，體會下鶴龜連鎖是如何進行的。
 
-當顏色來得不均勻，或是某個顏色來得太多時，鶴龜連鎖常是個不錯的解決辦法，例如，在下圖中，假設有位玩家想要排[2-2階梯]({{ "wiki/B_chain/b_standard_patterns/i_stairs" | relative_url }})，
+當顏色來得不均勻，或是某個顏色來得太多時，鶴龜連鎖常是個不錯的解決辦法，例如，在下圖中，假設有位玩家想要排[2-2階梯]({% link _wiki/B_chain/b_regular_form/i_stairs.md %})，
 
 {% figure %}
 [![鶴龜應用1](https://i.imgur.com/fo6gs75.jpg)](https://puyonexus.com/chainsim/chain/39Xsh)

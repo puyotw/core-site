@@ -31,7 +31,7 @@ fron排法。
 
 ## fron排法的右側發展
 
-fron排法的右側的發展，常常是要巧妙地利用D行造成的一格段差來連接連鎖。下面的四個例子都是從左邊紅色發火，值得注意的是，除了最左圖是標準的雪崩連鎖尾之外，其他發展其實都是[鶴龜連鎖]({{ "wiki/B_chain/A_basics/b_three_clear_types#段差式的特例：鶴龜連鎖" | relative_url }})。
+fron排法的右側的發展，常常是要巧妙地利用D行造成的一格段差來連接連鎖。下面的四個例子都是從左邊紅色發火，值得注意的是，除了最左圖是標準的雪崩連鎖尾之外，其他發展其實都是[鶴龜連鎖]({% link _wiki/A_basics/b_three_clear_types.md %}#段差式的特例：鶴龜連鎖)。
 
 {% figure %}
 {% puyosim mode:0 %}
@@ -106,7 +106,7 @@ fron排法也常常做成用D行發火的速攻型。如果對手露出破綻，
 
 ### 速攻例1
 
-下圖是利用紅黃[八分之一]({{ "wiki/B_chain/g_others/ii_one_eight" | relative_url }})做出二連雙消的例子：
+下圖是利用紅黃[八分之一]({% link _wiki/B_chain/g_others/ii_one_eight.md %})做出二連雙消的例子：
 
 {% figure %}
 {% puyosim mode:0 %}
