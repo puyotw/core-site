@@ -237,3 +237,15 @@ body {
     transition: max-height 0.4s cubic-bezier(.83,.43,0,1.02);
   }
 }
+
+div.video-container {
+  text-align: center;
+}
+
+.markdown-section figure {
+  text-align: center;
+
+  > figcaption {
+    font-size: smaller;
+  }
+}
