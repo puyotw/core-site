@@ -80,7 +80,7 @@ module Figure
   class FigureBlock < Liquid::Block
     DefaultCaptionFormat = '*{{ ref }}*{{ caption }}'
     DefaultCaptionReferenceFormat = '圖 {{ num }}'
-    DefaultCaptionTextFormat = '：{{ captext }}'
+    DefaultCaptionTextFormat = '. {{ captext }}'
   
     def initialize(tag, markup, context)
       super
