@@ -119,7 +119,7 @@ module Figure
           @current_block = @caption = Liquid::BlockBody.new
   
           # change caption format if defined in the markup
-          markup = unquote(markup.strip)
+          markup = unquote markup.strip
           markup.scan(Liquid::TagAttributes) do |key, value|
             case key
             when 'fmt'
@@ -128,13 +128,12 @@ module Figure
               @captext_fmt = unquote value
             end
           end
-  
-          return
         else
           # this is not the first caption in this block,
           # do no more parsing because it is invalid
           @current_block = nil
         end
+        return
       end
   
       # other unknown tags, let the super class handle it
@@ -142,10 +141,6 @@ module Figure
     end
   
     def render(context)
-      # we need this converted to convert markdown to html
-      # or else the final html would just be the original input markdown text
-      converter = context.registers[:site].find_converter_instance(Jekyll::Converters::Markdown) 
-  
       # generate the pieces of figure in markdown
       body    = @body.render(context)
       captext = if @caption.nil? then '' else Liquid::Template.parse(@captext_fmt).render({
@@ -155,13 +150,13 @@ module Figure
         'ref'     => @ref,
         'caption' => captext
       })                                    
-  
-      "<figure id=\"#{@label}\">"                      +
-        remove_paragraph(converter.convert(body))      +
-        '<figcaption>'                                 +
-          remove_paragraph(converter.convert(caption)) +
-        '</figcaption>'                                +
-      '</figure>'
+                                                         "\n" +
+      "<figure markdown=\"1\" id=\"#{@label}\">"       + "\n" +
+        body                                           + "\n" +
+        '<figcaption markdown="1">'                    + "\n" +
+          caption                                      + "\n" +
+        '</figcaption>'                                + "\n" +
+      '</figure>'                                      + "\n"
     end
   
     Liquid::Template.register_tag('figure', self)
