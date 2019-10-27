@@ -6,6 +6,7 @@ tags: ['連鎖', '不定型', '折返', '地基', 'GTR']
 
 GTR，在日文與英文中都以GTR稱呼，根據[Puyo Nexus](https://puyonexus.com/wiki/Patterns_and_Transitions_3:_GTR_%26_More)，他是Great Tanaka Rensa的簡稱。他可說是最知名的一種[折返]({{ "wiki/B_chain/d_transition" | relative_url }})排法。
 
+{% figure %}
 {% puyosim mode:0 %}
                  
 ||             ||
@@ -22,7 +23,6 @@ GTR，在日文與英文中都以GTR稱呼，根據[Puyo Nexus](https://puyonexu
 || R R -       ||
 ++=============++
 {% endpuyosim %}
-{% figure %}
 {% endfigure %}
 GTR是不定型裡最常被使用的排法，在日本的職業比賽中很常能見到；以台灣的比賽為例，[2019年的春季大賽](https://www.youtube.com/watch?v=PixL7IC_klA)也能看到許多使用GTR的比試。
 
@@ -34,6 +34,7 @@ GTR的右側可做階梯、鑰匙排法、L字地基、座布團，或是其他�
 
 下面這些發展型，即使是日本職業高手例如[delta](https://www.youtube.com/channel/UCjp023TT_em1TG7WnSKNG9w)、[マッキー](https://www.youtube.com/channel/UCuu-QRKPWp6yomlvygXcQbQ)等等也都很常使用，因此他們的對戰影片會是很好的GTR學習資源。值得一提的是，即使列出了這麼多的發展型，當然也還是無法囊括所有狀況；氣泡來的不好時該如何妥協、做出還可以的形狀，這也是重點之一，從高手的影片也能學習到他們如何在這些狀況做出好的妥協型。
 
+{% figure %}
 {% puyosim mode:0 %}
                  
 ||             ||
@@ -98,11 +99,11 @@ GTR的右側可做階梯、鑰匙排法、L字地基、座布團，或是其他�
 || G G B B Y G ||
 ++=============++
 {% endpuyosim %}
-{% figure %}
 {% caption %}
 GTR的右側發展例，由左至右依序為：2-2階梯、2-2階梯變形、鑰匙排法、L字地基。
 {% endfigure %}
 
+{% figure %}
 {% puyosim mode:0 %}
                  
 ||             ||
@@ -199,7 +200,6 @@ GTR的右側發展例，由左至右依序為：2-2階梯、2-2階梯變形、�
 || G G Y G G G ||
 ++=============++
 {% endpuyosim %}
-{% figure %}
 {% caption %}
 GTR的右側發展例，從左至右依序為：L字地基變形、Y字、Y字、熊排法、座布團、彌生時代變形。
 {% endfigure %}
@@ -220,6 +220,7 @@ GTR的右側發展例，從左至右依序為：L字地基變形、Y字、Y字�
 
 將aa擺在AB行，將ab以a上b下擺在C行，
 
+{% figure %}
 {% puyosim mode:0 %}
                  
 ||             ||
@@ -236,13 +237,13 @@ GTR的右側發展例，從左至右依序為：L字地基變形、Y字、Y字�
 || R R B       ||
 ++=============++
 {% endpuyosim %}
-{% figure %}
 {% endfigure %}
 
 ### 2. aa bb
 
 通常有兩種做法，1. 將aa擺在AB行，bb擺在CD行，如左圖；2. 將aa擺在AB行，bb擺在AB行，如下圖，
 
+{% figure %}
 {% puyosim mode:0 %}
                  
 ||             ||
@@ -275,7 +276,6 @@ GTR的右側發展例，從左至右依序為：L字地基變形、Y字、Y字�
 || R R         ||
 ++=============++
 {% endpuyosim %}
-{% figure %}
 {% endfigure %}
 
 如果想先把折返排好的話，通常會擺成右圖，之後再於A行再加一顆b，完成GTR的L字折返部分。
@@ -284,6 +284,7 @@ GTR的右側發展例，從左至右依序為：L字地基變形、Y字、Y字�
 
 將aa擺在AB行，bc擺在CD行，
 
+{% figure %}
 {% puyosim mode:0 %}
                  
 ||             ||
@@ -300,11 +301,11 @@ GTR的右側發展例，從左至右依序為：L字地基變形、Y字、Y字�
 || R R B Y     ||
 ++=============++
 {% endpuyosim %}
-{% figure %}
 {% endfigure %}
 
 這裡b跟c的位置可以交換，而究竟哪顆該在哪邊，由於第一手氣泡出來後已經能看到第三手，可以藉由第三手的氣泡決定b與c的位置。例如，若是前三手是aa bc bb，下面是個常見的排法，
 
+{% figure %}
 {% puyosim mode:0 %}
                  
 ||             ||
@@ -337,12 +338,12 @@ GTR的右側發展例，從左至右依序為：L字地基變形、Y字、Y字�
 || R R Y B B B ||
 ++=============++
 {% endpuyosim %}
-{% figure %}
 {% endfigure %}
 
 ### 4. ab ab
 
 通常會將兩個ab縱地放在AB行。另種做法是將ab以a下b上放在A行，下一手ab放在BC行，雖也能做出GTR雛形，但不常被使用。
+{% figure %}
 {% puyosim mode:0 %}
                  
 ||             ||
@@ -375,13 +376,13 @@ GTR的右側發展例，從左至右依序為：L字地基變形、Y字、Y字�
 || R R B       ||
 ++=============++
 {% endpuyosim %}
-{% figure %}
 {% endfigure %}
 
 ### 5. ab ac
 
 將ab以a下b上放在A行，下一手bc放在BC行。有些玩家會將第一手與第二手的順序調換，因此也將b與c（就是圖中的藍色跟黃色）的位置調換。
 
+{% figure %}
 {% puyosim mode:0 %}
                  
 ||             ||
@@ -398,7 +399,6 @@ GTR的右側發展例，從左至右依序為：L字地基變形、Y字、Y字�
 || R R Y       ||
 ++=============++
 {% endpuyosim %}
-{% figure %}
 {% endfigure %}
 
 ## 參考資料
