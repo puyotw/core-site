@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/puyotw/core-site.svg?branch=master)](https://travis-ci.org/puyotw/core-site)
+[![Build Status](https://travis-ci.com/puyotw/core-site.svg?branch=master)](https://travis-ci.com/puyotw/core-site)
 
 # 魔法氣泡中文百科
 
