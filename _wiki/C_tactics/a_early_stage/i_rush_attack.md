@@ -137,7 +137,7 @@ tags: ['戰術', '中盤', '同消', '速攻']
 
 ### 連鎖尾端的階梯同消
 
-另個速攻的方法是，在連鎖尾端做像是[3-1階梯]({{ "wiki/B_chain/b_regular_form/i_stairs" | relative_url }})或是[2-2階梯]({{ "wiki/B_chain/b_regular_form/i_stairs" | relative_url }})的形狀，只是將他們做成同消。例如，下圖是藍色發火的二連三消，總共1720分，
+另個速攻的方法是，在連鎖尾端做像是[3-1階梯]({% link _wiki/B_chain/b_regular_form/i_stairs.md %})或是[2-2階梯]({% link _wiki/B_chain/b_regular_form/i_stairs.md %})的形狀，只是將他們做成同消。例如，下圖是藍色發火的二連三消，總共1720分，
 
 {% figure %}
 {% puyosim mode:0 %}
@@ -183,11 +183,11 @@ tags: ['戰術', '中盤', '同消', '速攻']
 
 ### L字地基
 
-關於L字地基的速攻，可參考[L字地基]({{ "wiki/B_chain/c_irregular_form/iii_L_shape" | relative_url }})。
+關於L字地基的速攻，可參考[L字地基]({% link _wiki/B_chain/c_irregular_form/iii_L_shape.md %})。
 
 ### Fron排法
 
-關於Fron排法的速攻，可參考[Fron排法]({{ "wiki/B_chain/c_irregular_form/iv_fron" | relative_url }})。
+關於Fron排法的速攻，可參考[Fron排法]({% link _wiki/B_chain/c_irregular_form/iv_fron.md %})。
 
 ## 保持速攻的連鎖、速攻的重組
 
@@ -245,7 +245,7 @@ tags: ['戰術', '中盤', '同消', '速攻']
 從F行發火是個五連三消。由於是在連鎖尾端同消，攻擊力加成較高，而且像這樣的短連鎖也能減少對手的反應時間。
 {% endfigure %}
 
-往前加連鎖時，甚至也能擅用[合體]({{ "wiki/B_chain/f_fusion" | relative_url }})，讓自己在保持速攻的同時加主線，若對手有空隙便隨時打出速攻。
+往前加連鎖時，甚至也能擅用[合體]({% link _wiki/B_chain/f_fusion.md %})，讓自己在保持速攻的同時加主線，若對手有空隙便隨時打出速攻。
 
 {% figure %}
 {% puyosim mode:0 %}
@@ -494,8 +494,8 @@ tags: ['戰術', '中盤', '同消', '速攻']
 
 ### L字地基
 
-關於L字地基的速攻重組，可參考[L字地基]({{ "wiki/B_chain/c_irregular_form/iii_L_shape" | relative_url }})。
+關於L字地基的速攻重組，可參考[L字地基]({% link _wiki/B_chain/c_irregular_form/iii_L_shape.md %})。
 
 ### Fron排法
 
-關於Fron排法的速攻重組，可參考[Fron排法]({{ "wiki/B_chain/c_irregular_form/iv_fron" | relative_url }})。
+關於Fron排法的速攻重組，可參考[Fron排法]({% link _wiki/B_chain/c_irregular_form/iv_fron.md %})。

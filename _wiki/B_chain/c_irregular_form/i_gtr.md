@@ -4,7 +4,7 @@ title: GTR
 tags: ['連鎖', '不定型', '折返', '地基', 'GTR']
 ---
 
-GTR，在日文與英文中都以GTR稱呼，根據[Puyo Nexus](https://puyonexus.com/wiki/Patterns_and_Transitions_3:_GTR_%26_More)，他是Great Tanaka Rensa的簡稱。他可說是最知名的一種[折返]({{ "wiki/B_chain/d_transition" | relative_url }})排法。
+GTR，在日文與英文中都以GTR稱呼，根據[Puyo Nexus](https://puyonexus.com/wiki/Patterns_and_Transitions_3:_GTR_%26_More)，他是Great Tanaka Rensa的簡稱。他可說是最知名的一種[折返]({% link _wiki/B_chain/d_transition.md %})排法。
 
 {% figure %}
 {% puyosim mode:0 %}
@@ -26,7 +26,7 @@ GTR，在日文與英文中都以GTR稱呼，根據[Puyo Nexus](https://puyonexu
 {% endfigure %}
 GTR是不定型裡最常被使用的排法，在日本的職業比賽中很常能見到；以台灣的比賽為例，[2019年的春季大賽](https://www.youtube.com/watch?v=PixL7IC_klA)也能看到許多使用GTR的比試。
 
-GTR可說是一種[折返]({{ "wiki/B_chain/d_transition" | relative_url }})的排法。由於GTR天生形狀扁平，他的製作難度比[階梯]({{ "wiki/B_chain/b_regular_form/i_stairs" | relative_url }})或[鑰匙]({{ "wiki/B_chain/b_regular_form/ii_sandwich" | relative_url }})的折返來得容易；然而，GTR排完後剩餘的連鎖該如何延伸，考驗對其他排法的熟練度。 
+GTR可說是一種[折返]({% link _wiki/B_chain/d_transition.md %})的排法。由於GTR天生形狀扁平，他的製作難度比[階梯]({% link _wiki/B_chain/b_regular_form/i_stairs.md %})或[鑰匙]({% link _wiki/B_chain/b_regular_form/ii_sandwich.md %})的折返來得容易；然而，GTR排完後剩餘的連鎖該如何延伸，考驗對其他排法的熟練度。 
 
 ## GTR右側發展
 

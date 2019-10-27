@@ -12,7 +12,7 @@ tags: ['連鎖', '副砲', '合體']
 
 ## 合體例1
 
-下圖是個左折的[GTR]({{ "wiki/B_chain/c_irregular_form/i_gtr" | relative_url }})，黃色是主砲的引爆點，
+下圖是個左折的[GTR]({% link _wiki/B_chain/c_irregular_form/i_gtr.md %})，黃色是主砲的引爆點，
 
 {% figure %}
 {% puyosim mode:0 %}
@@ -184,7 +184,7 @@ tags: ['連鎖', '副砲', '合體']
 
 ## 合體例3
 
-在這個例子中，[鑰匙排法]({{ "wiki/B_chain/b_regular_form/ii_sandwich" | relative_url }})的一樓已經做好，需要適當的顏色來排好折返。
+在這個例子中，[鑰匙排法]({% link _wiki/B_chain/b_regular_form/ii_sandwich.md %})的一樓已經做好，需要適當的顏色來排好折返。
 
 {% figure %}
 {% puyosim mode:0 %}

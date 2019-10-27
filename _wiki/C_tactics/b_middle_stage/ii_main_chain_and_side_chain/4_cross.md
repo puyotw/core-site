@@ -8,7 +8,7 @@ tags: ['戰術', '中盤', '副砲', '同消', '凝視', '催促']
 
 以下沿用ミスケン的原文[^1]來介紹這個戰術，在此之後，討論可能影響此戰術成功與否的因素。
 
-在下圖的情況中，2P從黃色引爆有四連鎖的副砲，但這個副砲還需一段時間才能與主砲合體。此時1P發動一連鎖[同消（荊棘）]({{"wiki/B_chain/f_others/i_power_chain" | relative_url }})。
+在下圖的情況中，2P從黃色引爆有四連鎖的副砲，但這個副砲還需一段時間才能與主砲合體。此時1P發動一連鎖[同消（荊棘）]({% link _wiki/B_chain/g_others/i_power_chain.md %})。
 
 <img src="https://i.imgur.com/osoMEFN.jpg" width="500">
 
